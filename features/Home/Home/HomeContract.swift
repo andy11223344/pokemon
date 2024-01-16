@@ -14,6 +14,7 @@ import Networking
 protocol HomeView: AnyObject {
     var presenter: HomePresentation? { get set }
     func showAlert(message: String)
+    func fetchDidSuccess()
 }
 
 // MARK: - Presenter

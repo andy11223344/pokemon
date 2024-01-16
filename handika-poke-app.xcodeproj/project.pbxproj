@@ -10,8 +10,6 @@
 		65C6D45D5004C12D0FFBB4DE /* Pods_handika_poke_appTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D48F2F5EFBCBC5F08C9991E7 /* Pods_handika_poke_appTests.framework */; };
 		A1414EB22B56796F00374A88 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1414EB12B56796F00374A88 /* AppDelegate.swift */; };
 		A1414EB42B56796F00374A88 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1414EB32B56796F00374A88 /* SceneDelegate.swift */; };
-		A1414EB62B56796F00374A88 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1414EB52B56796F00374A88 /* ViewController.swift */; };
-		A1414EB92B56796F00374A88 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A1414EB72B56796F00374A88 /* Main.storyboard */; };
 		A1414EBB2B56797100374A88 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A1414EBA2B56797100374A88 /* Assets.xcassets */; };
 		A1414EBE2B56797100374A88 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A1414EBC2B56797100374A88 /* LaunchScreen.storyboard */; };
 		A1414EC92B56797100374A88 /* handika_poke_appTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1414EC82B56797100374A88 /* handika_poke_appTests.swift */; };
@@ -67,8 +65,6 @@
 		A1414EAE2B56796F00374A88 /* handika-poke-app.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "handika-poke-app.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A1414EB12B56796F00374A88 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A1414EB32B56796F00374A88 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		A1414EB52B56796F00374A88 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		A1414EB82B56796F00374A88 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A1414EBA2B56797100374A88 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A1414EBD2B56797100374A88 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A1414EBF2B56797100374A88 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -178,8 +174,6 @@
 			isa = PBXGroup;
 			children = (
 				A1414EB12B56796F00374A88 /* AppDelegate.swift */,
-				A1414EB52B56796F00374A88 /* ViewController.swift */,
-				A1414EB72B56796F00374A88 /* Main.storyboard */,
 				A1414EBC2B56797100374A88 /* LaunchScreen.storyboard */,
 			);
 			path = Main;
@@ -301,7 +295,6 @@
 				A1414EF62B5684E700374A88 /* SplashScreen.xib in Resources */,
 				A1414EBE2B56797100374A88 /* LaunchScreen.storyboard in Resources */,
 				A1414EBB2B56797100374A88 /* Assets.xcassets in Resources */,
-				A1414EB92B56796F00374A88 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -385,7 +378,6 @@
 			files = (
 				A1414EF42B5684C900374A88 /* SplashScreen.swift in Sources */,
 				A1414F252B56914100374A88 /* DismissSplashTransition.swift in Sources */,
-				A1414EB62B56796F00374A88 /* ViewController.swift in Sources */,
 				A1414EB22B56796F00374A88 /* AppDelegate.swift in Sources */,
 				A1414EB42B56796F00374A88 /* SceneDelegate.swift in Sources */,
 			);
@@ -410,14 +402,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		A1414EB72B56796F00374A88 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				A1414EB82B56796F00374A88 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		A1414EBC2B56797100374A88 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -560,8 +544,8 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "handika-poke-app/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen.storyboard;
+				INFOPLIST_KEY_UIMainStoryboardFile = "";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -592,8 +576,8 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "handika-poke-app/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen.storyboard;
+				INFOPLIST_KEY_UIMainStoryboardFile = "";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (

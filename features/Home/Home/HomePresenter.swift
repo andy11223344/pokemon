@@ -38,7 +38,7 @@ extension HomePresenter: HomePresentation {
 
 extension HomePresenter: HomeInteractorOutput {
     func fetchPokemonSuccess() {
-        
+        view?.fetchDidSuccess()
     }
     
     func fetchPokemonError(error: Networking.ErrorResult) {

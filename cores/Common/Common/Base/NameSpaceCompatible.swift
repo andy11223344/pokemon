@@ -21,8 +21,8 @@ public protocol NameSpaceCompatible {
     static var ex: NameSpace<T>.Type { get }
 }
 
-extension NameSpaceCompatible {
-    public static var ex: NameSpace<Self>.Type {
+public extension NameSpaceCompatible {
+    static var ex: NameSpace<Self>.Type {
         return NameSpace<Self>.self
     }
 }

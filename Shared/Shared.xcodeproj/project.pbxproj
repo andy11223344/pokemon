@@ -12,6 +12,10 @@
 		A1414F9A2B56D30600374A88 /* Networking.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = A1414F982B56D30600374A88 /* Networking.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		A1414F9D2B56D31700374A88 /* ErrorLocalizable.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1414F9C2B56D31700374A88 /* ErrorLocalizable.swift */; };
 		A1414FA22B56D48800374A88 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1414FA12B56D48800374A88 /* Constants.swift */; };
+		A1414FA52B56DD0500374A88 /* Styles.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1414FA42B56DD0500374A88 /* Styles.swift */; };
+		A1414FA72B56E22700374A88 /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1414FA62B56E22700374A88 /* Colors.swift */; };
+		A1414FA92B56E25A00374A88 /* Common.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A1414FA82B56E25A00374A88 /* Common.framework */; };
+		A1414FAA2B56E25A00374A88 /* Common.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = A1414FA82B56E25A00374A88 /* Common.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -22,6 +26,7 @@
 			dstSubfolderSpec = 10;
 			files = (
 				A1414F9A2B56D30600374A88 /* Networking.framework in Embed Frameworks */,
+				A1414FAA2B56E25A00374A88 /* Common.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -35,6 +40,9 @@
 		A1414F982B56D30600374A88 /* Networking.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Networking.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A1414F9C2B56D31700374A88 /* ErrorLocalizable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorLocalizable.swift; sourceTree = "<group>"; };
 		A1414FA12B56D48800374A88 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		A1414FA42B56DD0500374A88 /* Styles.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Styles.swift; sourceTree = "<group>"; };
+		A1414FA62B56E22700374A88 /* Colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
+		A1414FA82B56E25A00374A88 /* Common.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Common.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B7BD5A92BE574CC027EA8DD6 /* Pods-handika-poke-app-Shared.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-handika-poke-app-Shared.debug.xcconfig"; path = "Target Support Files/Pods-handika-poke-app-Shared/Pods-handika-poke-app-Shared.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -43,6 +51,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A1414FA92B56E25A00374A88 /* Common.framework in Frameworks */,
 				A1414F992B56D30600374A88 /* Networking.framework in Frameworks */,
 				00446BBDA2AC7DE9C6EB5BF7 /* Pods_handika_poke_app_Shared.framework in Frameworks */,
 			);
@@ -64,6 +73,7 @@
 		74DF4DA8BA20C81321E8AB3E /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				A1414FA82B56E25A00374A88 /* Common.framework */,
 				A1414F982B56D30600374A88 /* Networking.framework */,
 				6A1FA7D87CFCB84582F7FA9D /* Pods_handika_poke_app_Shared.framework */,
 			);
@@ -93,6 +103,8 @@
 			children = (
 				A1414F9C2B56D31700374A88 /* ErrorLocalizable.swift */,
 				A1414FA12B56D48800374A88 /* Constants.swift */,
+				A1414FA42B56DD0500374A88 /* Styles.swift */,
+				A1414FA62B56E22700374A88 /* Colors.swift */,
 			);
 			path = Shared;
 			sourceTree = "<group>";
@@ -203,7 +215,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A1414FA52B56DD0500374A88 /* Styles.swift in Sources */,
 				A1414F9D2B56D31700374A88 /* ErrorLocalizable.swift in Sources */,
+				A1414FA72B56E22700374A88 /* Colors.swift in Sources */,
 				A1414FA22B56D48800374A88 /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

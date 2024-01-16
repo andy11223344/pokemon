@@ -8,17 +8,14 @@
 import UIKit
 
 public class Loading {
-    
-    public static func show() {
-        guard let topVc = UIApplication.shared.topMostViewController() else { return }
-        
-        topVc.view.addSubview(LoadingView(frame: topVc.view.frame))
+    public static func show(_ viewController: UIViewController) {
+        let loadingView = LoadingView(frame: viewController.view.frame)
+        loadingView.activityIndicator.startAnimating()
+        viewController.view.addSubview(loadingView)
     }
     
-    public static func hide() {
-        guard let topVc = UIApplication.shared.topMostViewController() else { return }
-        
-        for v in topVc.view.subviews.reversed() {
+    public static func hide(_ viewController: UIViewController) {
+        for v in viewController.view.subviews.reversed() {
             if v is LoadingView {
                 v.removeFromSuperview()
                 return

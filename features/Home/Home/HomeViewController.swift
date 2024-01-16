@@ -10,6 +10,7 @@ import UIKit
 import Components
 import Common
 import Kingfisher
+import Shared
 
 public class HomeViewController: BaseViewController {
     
@@ -30,14 +31,18 @@ public class HomeViewController: BaseViewController {
         myPokemonBtn.layer.cornerRadius = myPokemonBtn.frame.height / 2
         setupCollectionView()
         
-        Loading.show()
+        Loading.show(self)
         presenter?.interactor?.fetchPokemonList()
+    }
+    
+    public override func viewDidAppear(_ animated: Bool) {
+        super.viewDidAppear(animated)
     }
     
     func setupCollectionView() {
         collectionView.register(cellType: PokemonCollectionViewCell.self)
         collectionView.dataSource = self
-        collectionView.delegate = self
+        collectionView.collectionViewLayout = Constants.Styles.Layout.menuLayout(frame: view.frame)
     }
     
     public override func viewWillAppear(_ animated: Bool) {
@@ -53,6 +58,11 @@ public class HomeViewController: BaseViewController {
 }
 
 extension HomeViewController: HomeView{
+    func fetchDidSuccess() {
+        Loading.hide(self)
+        collectionView.reloadData()
+    }
+    
     func showAlert(message: String) {
         showAlert(title: message)
     }
@@ -79,13 +89,3 @@ extension HomeViewController: UICollectionViewDataSource {
     }
 }
 
-extension HomeViewController: UICollectionViewDelegateFlowLayout {
-    
-    public func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAt indexPath: IndexPath) -> CGSize {
-        let flowayout = collectionViewLayout as? UICollectionViewFlowLayout
-        let space: CGFloat = (flowayout?.minimumInteritemSpacing ?? 0.0) + (flowayout?.sectionInset.left ?? 0.0) + (flowayout?.sectionInset.right ?? 0.0)
-        let size:CGFloat = (collectionView.frame.size.width - space) / 2.0
-        return CGSize(width: size, height: size + (0.4 * size))
-    }
-    
-}

@@ -29,7 +29,6 @@ public class NetworkClient: INetworkClient  {
         }
         
         let url = request.url?.absoluteString ?? ""
-        print("request: \(url)")
         
         urlSession.dataTask(with: request){ (data, response, error) in
             guard let data = data, error == nil else {
@@ -39,11 +38,9 @@ public class NetworkClient: INetworkClient  {
 
             do {
                 let results = try JSONDecoder().decode(T.self, from: data)
-                print("request: \(url) | success")
                 completion?(.success(results))
             } catch let decodingError {
                 print(decodingError.localizedDescription)
-                print("request: \(url) | error")
                 completion?(.failure(ErrorResult.errMessage(message: decodingError.localizedDescription)))
             }
 
