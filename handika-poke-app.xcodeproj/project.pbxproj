@@ -19,6 +19,8 @@
 		A1414EE42B567F8A00374A88 /* Common.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = A1414EE22B567F8A00374A88 /* Common.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		A1414EEA2B56822C00374A88 /* RouterService.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A1414EE92B56822C00374A88 /* RouterService.framework */; };
 		A1414EEB2B56822C00374A88 /* RouterService.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = A1414EE92B56822C00374A88 /* RouterService.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		A1414EF42B5684C900374A88 /* SplashScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1414EF32B5684C900374A88 /* SplashScreen.swift */; };
+		A1414EF62B5684E700374A88 /* SplashScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = A1414EF52B5684E700374A88 /* SplashScreen.xib */; };
 		D381A784A67B162EDB17039B /* Pods_handika_poke_app.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 30BB53A2DE54967169938331 /* Pods_handika_poke_app.framework */; };
 /* End PBXBuildFile section */
 
@@ -64,6 +66,8 @@
 		A1414EC82B56797100374A88 /* handika_poke_appTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = handika_poke_appTests.swift; sourceTree = "<group>"; };
 		A1414EE22B567F8A00374A88 /* Common.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Common.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A1414EE92B56822C00374A88 /* RouterService.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = RouterService.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A1414EF32B5684C900374A88 /* SplashScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashScreen.swift; sourceTree = "<group>"; };
+		A1414EF52B5684E700374A88 /* SplashScreen.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SplashScreen.xib; sourceTree = "<group>"; };
 		D48F2F5EFBCBC5F08C9991E7 /* Pods_handika_poke_appTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_handika_poke_appTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E58869401F8DF1D93A7B084C /* Pods-handika-poke-app.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-handika-poke-app.release.xcconfig"; path = "Target Support Files/Pods-handika-poke-app/Pods-handika-poke-app.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -124,13 +128,10 @@
 		A1414EB02B56796F00374A88 /* handika-poke-app */ = {
 			isa = PBXGroup;
 			children = (
-				A1414EB12B56796F00374A88 /* AppDelegate.swift */,
 				A1414EB32B56796F00374A88 /* SceneDelegate.swift */,
-				A1414EB52B56796F00374A88 /* ViewController.swift */,
-				A1414EB72B56796F00374A88 /* Main.storyboard */,
-				A1414EBA2B56797100374A88 /* Assets.xcassets */,
-				A1414EBC2B56797100374A88 /* LaunchScreen.storyboard */,
 				A1414EBF2B56797100374A88 /* Info.plist */,
+				A1414EF22B5684A700374A88 /* SplashScreen */,
+				A1414EF02B56847600374A88 /* Resource */,
 			);
 			path = "handika-poke-app";
 			sourceTree = "<group>";
@@ -141,6 +142,35 @@
 				A1414EC82B56797100374A88 /* handika_poke_appTests.swift */,
 			);
 			path = "handika-poke-appTests";
+			sourceTree = "<group>";
+		};
+		A1414EF02B56847600374A88 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				A1414EF12B56848100374A88 /* Main */,
+				A1414EBA2B56797100374A88 /* Assets.xcassets */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		A1414EF12B56848100374A88 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				A1414EB12B56796F00374A88 /* AppDelegate.swift */,
+				A1414EB52B56796F00374A88 /* ViewController.swift */,
+				A1414EB72B56796F00374A88 /* Main.storyboard */,
+				A1414EBC2B56797100374A88 /* LaunchScreen.storyboard */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		A1414EF22B5684A700374A88 /* SplashScreen */ = {
+			isa = PBXGroup;
+			children = (
+				A1414EF32B5684C900374A88 /* SplashScreen.swift */,
+				A1414EF52B5684E700374A88 /* SplashScreen.xib */,
+			);
+			path = SplashScreen;
 			sourceTree = "<group>";
 		};
 		E5645C8F6DE1864AC0268361 /* Pods */ = {
@@ -238,6 +268,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A1414EF62B5684E700374A88 /* SplashScreen.xib in Resources */,
 				A1414EBE2B56797100374A88 /* LaunchScreen.storyboard in Resources */,
 				A1414EBB2B56797100374A88 /* Assets.xcassets in Resources */,
 				A1414EB92B56796F00374A88 /* Main.storyboard in Resources */,
@@ -305,6 +336,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A1414EF42B5684C900374A88 /* SplashScreen.swift in Sources */,
 				A1414EB62B56796F00374A88 /* ViewController.swift in Sources */,
 				A1414EB22B56796F00374A88 /* AppDelegate.swift in Sources */,
 				A1414EB42B56796F00374A88 /* SceneDelegate.swift in Sources */,
