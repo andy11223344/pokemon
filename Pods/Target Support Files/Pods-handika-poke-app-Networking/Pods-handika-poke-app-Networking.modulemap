@@ -1,0 +1,6 @@
+framework module Pods_handika_poke_app_Networking {
+  umbrella header "Pods-handika-poke-app-Networking-umbrella.h"
+
+  export *
+  module * { export * }
+}

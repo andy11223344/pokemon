@@ -1,0 +1,563 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		28CA49CF0D19F89E8472CCE4 /* Pods_handika_poke_app_RouterServiceInterface.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 55BEEFF8DB13ADC034405C3D /* Pods_handika_poke_app_RouterServiceInterface.framework */; };
+		A1414E102B5673AF00374A88 /* RouterServiceInterface.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A1414E072B5673AE00374A88 /* RouterServiceInterface.framework */; };
+		A1414E152B5673AF00374A88 /* RouterServiceInterfaceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1414E142B5673AF00374A88 /* RouterServiceInterfaceTests.swift */; };
+		A1414E272B5673D200374A88 /* AnyRoute.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1414E1F2B5673D200374A88 /* AnyRoute.swift */; };
+		A1414E282B5673D200374A88 /* RouteHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1414E202B5673D200374A88 /* RouteHandler.swift */; };
+		A1414E292B5673D200374A88 /* Dependency.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1414E212B5673D200374A88 /* Dependency.swift */; };
+		A1414E2A2B5673D200374A88 /* RouterServiceProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1414E222B5673D200374A88 /* RouterServiceProtocol.swift */; };
+		A1414E2B2B5673D200374A88 /* StoreInterface.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1414E232B5673D200374A88 /* StoreInterface.swift */; };
+		A1414E2C2B5673D200374A88 /* Feature.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1414E242B5673D200374A88 /* Feature.swift */; };
+		A1414E2D2B5673D200374A88 /* Route.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1414E252B5673D200374A88 /* Route.swift */; };
+		A1414E2E2B5673D200374A88 /* PresentationStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1414E262B5673D200374A88 /* PresentationStyle.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A1414E112B5673AF00374A88 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A1414DFE2B5673AE00374A88 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A1414E062B5673AE00374A88;
+			remoteInfo = RouterServiceInterface;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		55BEEFF8DB13ADC034405C3D /* Pods_handika_poke_app_RouterServiceInterface.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_handika_poke_app_RouterServiceInterface.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A1414E072B5673AE00374A88 /* RouterServiceInterface.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = RouterServiceInterface.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A1414E0F2B5673AE00374A88 /* RouterServiceInterfaceTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RouterServiceInterfaceTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A1414E142B5673AF00374A88 /* RouterServiceInterfaceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RouterServiceInterfaceTests.swift; sourceTree = "<group>"; };
+		A1414E1F2B5673D200374A88 /* AnyRoute.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnyRoute.swift; sourceTree = "<group>"; };
+		A1414E202B5673D200374A88 /* RouteHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RouteHandler.swift; sourceTree = "<group>"; };
+		A1414E212B5673D200374A88 /* Dependency.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Dependency.swift; sourceTree = "<group>"; };
+		A1414E222B5673D200374A88 /* RouterServiceProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RouterServiceProtocol.swift; sourceTree = "<group>"; };
+		A1414E232B5673D200374A88 /* StoreInterface.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StoreInterface.swift; sourceTree = "<group>"; };
+		A1414E242B5673D200374A88 /* Feature.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Feature.swift; sourceTree = "<group>"; };
+		A1414E252B5673D200374A88 /* Route.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Route.swift; sourceTree = "<group>"; };
+		A1414E262B5673D200374A88 /* PresentationStyle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PresentationStyle.swift; sourceTree = "<group>"; };
+		B2ADAA926177C2805E5CE564 /* Pods-handika-poke-app-RouterServiceInterface.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-handika-poke-app-RouterServiceInterface.debug.xcconfig"; path = "Target Support Files/Pods-handika-poke-app-RouterServiceInterface/Pods-handika-poke-app-RouterServiceInterface.debug.xcconfig"; sourceTree = "<group>"; };
+		EBEF0CBCF559AA1BD43FF329 /* Pods-handika-poke-app-RouterServiceInterface.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-handika-poke-app-RouterServiceInterface.release.xcconfig"; path = "Target Support Files/Pods-handika-poke-app-RouterServiceInterface/Pods-handika-poke-app-RouterServiceInterface.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A1414E042B5673AE00374A88 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28CA49CF0D19F89E8472CCE4 /* Pods_handika_poke_app_RouterServiceInterface.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A1414E0C2B5673AE00374A88 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1414E102B5673AF00374A88 /* RouterServiceInterface.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		380FA307CFA61D912731D028 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B2ADAA926177C2805E5CE564 /* Pods-handika-poke-app-RouterServiceInterface.debug.xcconfig */,
+				EBEF0CBCF559AA1BD43FF329 /* Pods-handika-poke-app-RouterServiceInterface.release.xcconfig */,
+			);
+			name = Pods;
+			path = ../../Pods;
+			sourceTree = "<group>";
+		};
+		A1414DFD2B5673AE00374A88 = {
+			isa = PBXGroup;
+			children = (
+				A1414E092B5673AE00374A88 /* RouterServiceInterface */,
+				A1414E132B5673AF00374A88 /* RouterServiceInterfaceTests */,
+				A1414E082B5673AE00374A88 /* Products */,
+				380FA307CFA61D912731D028 /* Pods */,
+				FD8C91DF31EA6483EB73F9C9 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		A1414E082B5673AE00374A88 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A1414E072B5673AE00374A88 /* RouterServiceInterface.framework */,
+				A1414E0F2B5673AE00374A88 /* RouterServiceInterfaceTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A1414E092B5673AE00374A88 /* RouterServiceInterface */ = {
+			isa = PBXGroup;
+			children = (
+				A1414E1F2B5673D200374A88 /* AnyRoute.swift */,
+				A1414E212B5673D200374A88 /* Dependency.swift */,
+				A1414E242B5673D200374A88 /* Feature.swift */,
+				A1414E262B5673D200374A88 /* PresentationStyle.swift */,
+				A1414E252B5673D200374A88 /* Route.swift */,
+				A1414E202B5673D200374A88 /* RouteHandler.swift */,
+				A1414E222B5673D200374A88 /* RouterServiceProtocol.swift */,
+				A1414E232B5673D200374A88 /* StoreInterface.swift */,
+			);
+			path = RouterServiceInterface;
+			sourceTree = "<group>";
+		};
+		A1414E132B5673AF00374A88 /* RouterServiceInterfaceTests */ = {
+			isa = PBXGroup;
+			children = (
+				A1414E142B5673AF00374A88 /* RouterServiceInterfaceTests.swift */,
+			);
+			path = RouterServiceInterfaceTests;
+			sourceTree = "<group>";
+		};
+		FD8C91DF31EA6483EB73F9C9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				55BEEFF8DB13ADC034405C3D /* Pods_handika_poke_app_RouterServiceInterface.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		A1414E022B5673AE00374A88 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		A1414E062B5673AE00374A88 /* RouterServiceInterface */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A1414E192B5673AF00374A88 /* Build configuration list for PBXNativeTarget "RouterServiceInterface" */;
+			buildPhases = (
+				B955F13D365416F19D57D6F6 /* [CP] Check Pods Manifest.lock */,
+				A1414E022B5673AE00374A88 /* Headers */,
+				A1414E032B5673AE00374A88 /* Sources */,
+				A1414E042B5673AE00374A88 /* Frameworks */,
+				A1414E052B5673AE00374A88 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RouterServiceInterface;
+			productName = RouterServiceInterface;
+			productReference = A1414E072B5673AE00374A88 /* RouterServiceInterface.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		A1414E0E2B5673AE00374A88 /* RouterServiceInterfaceTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A1414E1C2B5673AF00374A88 /* Build configuration list for PBXNativeTarget "RouterServiceInterfaceTests" */;
+			buildPhases = (
+				A1414E0B2B5673AE00374A88 /* Sources */,
+				A1414E0C2B5673AE00374A88 /* Frameworks */,
+				A1414E0D2B5673AE00374A88 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A1414E122B5673AF00374A88 /* PBXTargetDependency */,
+			);
+			name = RouterServiceInterfaceTests;
+			productName = RouterServiceInterfaceTests;
+			productReference = A1414E0F2B5673AE00374A88 /* RouterServiceInterfaceTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A1414DFE2B5673AE00374A88 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1510;
+				LastUpgradeCheck = 1510;
+				TargetAttributes = {
+					A1414E062B5673AE00374A88 = {
+						CreatedOnToolsVersion = 15.1;
+						LastSwiftMigration = 1510;
+					};
+					A1414E0E2B5673AE00374A88 = {
+						CreatedOnToolsVersion = 15.1;
+					};
+				};
+			};
+			buildConfigurationList = A1414E012B5673AE00374A88 /* Build configuration list for PBXProject "RouterServiceInterface" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A1414DFD2B5673AE00374A88;
+			productRefGroup = A1414E082B5673AE00374A88 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A1414E062B5673AE00374A88 /* RouterServiceInterface */,
+				A1414E0E2B5673AE00374A88 /* RouterServiceInterfaceTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A1414E052B5673AE00374A88 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A1414E0D2B5673AE00374A88 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		B955F13D365416F19D57D6F6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-handika-poke-app-RouterServiceInterface-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A1414E032B5673AE00374A88 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1414E2C2B5673D200374A88 /* Feature.swift in Sources */,
+				A1414E292B5673D200374A88 /* Dependency.swift in Sources */,
+				A1414E2B2B5673D200374A88 /* StoreInterface.swift in Sources */,
+				A1414E282B5673D200374A88 /* RouteHandler.swift in Sources */,
+				A1414E2A2B5673D200374A88 /* RouterServiceProtocol.swift in Sources */,
+				A1414E2D2B5673D200374A88 /* Route.swift in Sources */,
+				A1414E272B5673D200374A88 /* AnyRoute.swift in Sources */,
+				A1414E2E2B5673D200374A88 /* PresentationStyle.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A1414E0B2B5673AE00374A88 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1414E152B5673AF00374A88 /* RouterServiceInterfaceTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A1414E122B5673AF00374A88 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A1414E062B5673AE00374A88 /* RouterServiceInterface */;
+			targetProxy = A1414E112B5673AF00374A88 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		A1414E172B5673AF00374A88 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		A1414E182B5673AF00374A88 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		A1414E1A2B5673AF00374A88 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B2ADAA926177C2805E5CE564 /* Pods-handika-poke-app-RouterServiceInterface.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				MODULE_VERIFIER_SUPPORTED_LANGUAGES = "objective-c objective-c++";
+				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu17 gnu++20";
+				PRODUCT_BUNDLE_IDENTIFIER = core.RouterServiceInterface;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A1414E1B2B5673AF00374A88 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EBEF0CBCF559AA1BD43FF329 /* Pods-handika-poke-app-RouterServiceInterface.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				MODULE_VERIFIER_SUPPORTED_LANGUAGES = "objective-c objective-c++";
+				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu17 gnu++20";
+				PRODUCT_BUNDLE_IDENTIFIER = core.RouterServiceInterface;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		A1414E1D2B5673AF00374A88 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = core.RouterServiceInterfaceTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A1414E1E2B5673AF00374A88 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = core.RouterServiceInterfaceTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A1414E012B5673AE00374A88 /* Build configuration list for PBXProject "RouterServiceInterface" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A1414E172B5673AF00374A88 /* Debug */,
+				A1414E182B5673AF00374A88 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A1414E192B5673AF00374A88 /* Build configuration list for PBXNativeTarget "RouterServiceInterface" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A1414E1A2B5673AF00374A88 /* Debug */,
+				A1414E1B2B5673AF00374A88 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A1414E1C2B5673AF00374A88 /* Build configuration list for PBXNativeTarget "RouterServiceInterfaceTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A1414E1D2B5673AF00374A88 /* Debug */,
+				A1414E1E2B5673AF00374A88 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A1414DFE2B5673AE00374A88 /* Project object */;
+}

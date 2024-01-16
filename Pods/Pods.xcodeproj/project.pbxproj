@@ -1,0 +1,1425 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		121A8868A57EA80ABF467E348AEFE1EA /* Pods-handika-poke-appTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 61EA1EE8ED5D25E20FA88D5AD681FBAB /* Pods-handika-poke-appTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3F875BA1BD8C46422FB3AFB7651C4880 /* Pods-handika-poke-app-Common-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FF5C35B0070628BD7A88362B687558E8 /* Pods-handika-poke-app-Common-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4A9387394A3F29DB91EC44006F3D9B3D /* Pods-handika-poke-app-Components-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9CAE8EDA388CF751846C3DE7672CC29D /* Pods-handika-poke-app-Components-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4C794696E4D25877C3BBA628CEE88C5C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		5E6366AA60F5DEA4820010826E575667 /* Pods-handika-poke-app-RouterService-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 08F83849FEBF7930A8C483AF5F6EE021 /* Pods-handika-poke-app-RouterService-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6E726294C5DEF2DB956D901F431207D7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		7D19F5F8DE2A485F16418DF9CCD35755 /* Pods-handika-poke-app-RouterServiceInterface-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8183C76DD450AE6611DFF8F633FAE0DC /* Pods-handika-poke-app-RouterServiceInterface-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		91019E88FF0694E1C14CCE2C468D615F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		9331B3346C6860973BF1EE9041331445 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		98976A2DD87766E5F9123AB250F5DA17 /* Pods-handika-poke-app-RouterServiceInterface-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D3AC55AC0A4D92B34F67E7D08658484 /* Pods-handika-poke-app-RouterServiceInterface-dummy.m */; };
+		B37A073D06FAA8DCD24AB1B9E38A5393 /* Pods-handika-poke-app-Networking-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F1FEDBAF1196F7338D15D9B27248616 /* Pods-handika-poke-app-Networking-dummy.m */; };
+		B648E75E5657644D7AAE13276182C16B /* Pods-handika-poke-app-Networking-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D96525F07CF338113D53C6FF8C43E163 /* Pods-handika-poke-app-Networking-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BA3C1AB762D61F93669A221B66DF67E1 /* Pods-handika-poke-app-Common-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4462F1DD12A111EC0980E4E0D2F259DC /* Pods-handika-poke-app-Common-dummy.m */; };
+		BAAF85F80AE89A0E338ED0A5E58406F0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		BCEA637E959F65B62FE54B55D826B8D0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		BD11FECF0E9078E37B544EED17209959 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		C05157EEBE05A796992EB691AF2A62A7 /* Pods-handika-poke-appTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B31C81CCCD3D43ABE238F11E534C4BB /* Pods-handika-poke-appTests-dummy.m */; };
+		DCE84A125D5DB04BC7ADC7B2D507D0AA /* Pods-handika-poke-app-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 81C9321D1A3262B036C4D575E1087029 /* Pods-handika-poke-app-dummy.m */; };
+		E72052A6E4AE420714AFE54B982831B2 /* Pods-handika-poke-app-Components-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CB4805201B4E7A91E344871B3FB40F0 /* Pods-handika-poke-app-Components-dummy.m */; };
+		EB02E04F1C3FC53DBC9740D896ECECB2 /* Pods-handika-poke-app-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9B4EFD8B599F7E695C0E4CFBF7C04D42 /* Pods-handika-poke-app-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F230AEDB5F74616160755FE224458F39 /* Pods-handika-poke-app-RouterService-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 50B032B718EC56B818EACA1C8DA22D35 /* Pods-handika-poke-app-RouterService-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		997459A22074B1E946DF57613DE143C8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 848605B621C26AEEDAF1B8EDCD32ED85;
+			remoteInfo = "Pods-handika-poke-app";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		000D096F720445DFF2F4FA2B43F00788 /* Pods-handika-poke-app-Common.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-handika-poke-app-Common.debug.xcconfig"; sourceTree = "<group>"; };
+		0784F4ACCE69CD810898B3EC1D3E1850 /* Pods-handika-poke-app-RouterServiceInterface-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-handika-poke-app-RouterServiceInterface-Info.plist"; sourceTree = "<group>"; };
+		08F83849FEBF7930A8C483AF5F6EE021 /* Pods-handika-poke-app-RouterService-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-handika-poke-app-RouterService-umbrella.h"; sourceTree = "<group>"; };
+		0C734A06B4C0681EC9CBDA8612474A58 /* Pods-handika-poke-app-Networking-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-handika-poke-app-Networking-acknowledgements.markdown"; sourceTree = "<group>"; };
+		0F48E1CD780E42FCA0DEFA6596669D6C /* Pods-handika-poke-app-Components-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-handika-poke-app-Components-Info.plist"; sourceTree = "<group>"; };
+		115A30EB9D60B8BBA203AF28FC0ECF8B /* Pods-handika-poke-app-Networking.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-handika-poke-app-Networking.debug.xcconfig"; sourceTree = "<group>"; };
+		19CFC17AD0E3CF09A23A3F2EC32350E4 /* Pods-handika-poke-app.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-handika-poke-app.release.xcconfig"; sourceTree = "<group>"; };
+		1CB4805201B4E7A91E344871B3FB40F0 /* Pods-handika-poke-app-Components-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-handika-poke-app-Components-dummy.m"; sourceTree = "<group>"; };
+		232F74E321CED7CFF9616E9D990C6BDC /* Pods-handika-poke-app-Networking */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-handika-poke-app-Networking"; path = Pods_handika_poke_app_Networking.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		23BDBE4B16AA65B9582E1B7C3D4B3C13 /* Pods-handika-poke-app-Networking.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-handika-poke-app-Networking.modulemap"; sourceTree = "<group>"; };
+		2502001D6705FCCFD5CDBAA51B77EEE6 /* Pods-handika-poke-app-Common-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-handika-poke-app-Common-Info.plist"; sourceTree = "<group>"; };
+		2F01761563520A80FEFE1DAA99F9BD6C /* Pods-handika-poke-app-RouterService-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-handika-poke-app-RouterService-acknowledgements.plist"; sourceTree = "<group>"; };
+		36512D472272433B148B49311ACD09FB /* Pods-handika-poke-app-Common */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-handika-poke-app-Common"; path = Pods_handika_poke_app_Common.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		38BD7CB86153D5AB8CD105E9564E7096 /* Pods-handika-poke-app-Networking-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-handika-poke-app-Networking-Info.plist"; sourceTree = "<group>"; };
+		3AA35438F44CCED3D219D6F410829662 /* Pods-handika-poke-app-Components */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-handika-poke-app-Components"; path = Pods_handika_poke_app_Components.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3B31C81CCCD3D43ABE238F11E534C4BB /* Pods-handika-poke-appTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-handika-poke-appTests-dummy.m"; sourceTree = "<group>"; };
+		3E621B298782BC65476261741E68C95A /* Pods-handika-poke-app-RouterService-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-handika-poke-app-RouterService-Info.plist"; sourceTree = "<group>"; };
+		41310F575C57C65F283BA4FCD0E7407F /* Pods-handika-poke-app-Common.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-handika-poke-app-Common.release.xcconfig"; sourceTree = "<group>"; };
+		4462F1DD12A111EC0980E4E0D2F259DC /* Pods-handika-poke-app-Common-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-handika-poke-app-Common-dummy.m"; sourceTree = "<group>"; };
+		46BA15084FBE12A3B64F80815366B6EA /* Pods-handika-poke-appTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-handika-poke-appTests-Info.plist"; sourceTree = "<group>"; };
+		4860A5A30DFD3891D014A8F8BE2AE474 /* Pods-handika-poke-app-Common.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-handika-poke-app-Common.modulemap"; sourceTree = "<group>"; };
+		4A7CD06E004DC25A3A7632F856C4EA04 /* Pods-handika-poke-app-RouterService.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-handika-poke-app-RouterService.debug.xcconfig"; sourceTree = "<group>"; };
+		4CC627986760DD35BEFF3D5472E9DEDE /* Pods-handika-poke-app-RouterServiceInterface.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-handika-poke-app-RouterServiceInterface.debug.xcconfig"; sourceTree = "<group>"; };
+		50B032B718EC56B818EACA1C8DA22D35 /* Pods-handika-poke-app-RouterService-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-handika-poke-app-RouterService-dummy.m"; sourceTree = "<group>"; };
+		5A479AA6F0F82622D0E58FF94AE6846E /* Pods-handika-poke-appTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-handika-poke-appTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		5D3AC55AC0A4D92B34F67E7D08658484 /* Pods-handika-poke-app-RouterServiceInterface-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-handika-poke-app-RouterServiceInterface-dummy.m"; sourceTree = "<group>"; };
+		61EA1EE8ED5D25E20FA88D5AD681FBAB /* Pods-handika-poke-appTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-handika-poke-appTests-umbrella.h"; sourceTree = "<group>"; };
+		648D747805DA21204E863EF072313F41 /* Pods-handika-poke-app */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-handika-poke-app"; path = Pods_handika_poke_app.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6513410DF451791051ED39636288D8E2 /* Pods-handika-poke-app-RouterService.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-handika-poke-app-RouterService.release.xcconfig"; sourceTree = "<group>"; };
+		6831EAACDE54B6177373313590AFEAB9 /* Pods-handika-poke-app-Components.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-handika-poke-app-Components.modulemap"; sourceTree = "<group>"; };
+		68D49D57284920604487A66309FF350C /* Pods-handika-poke-app-Networking-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-handika-poke-app-Networking-acknowledgements.plist"; sourceTree = "<group>"; };
+		6F1FEDBAF1196F7338D15D9B27248616 /* Pods-handika-poke-app-Networking-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-handika-poke-app-Networking-dummy.m"; sourceTree = "<group>"; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		8183C76DD450AE6611DFF8F633FAE0DC /* Pods-handika-poke-app-RouterServiceInterface-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-handika-poke-app-RouterServiceInterface-umbrella.h"; sourceTree = "<group>"; };
+		81C9321D1A3262B036C4D575E1087029 /* Pods-handika-poke-app-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-handika-poke-app-dummy.m"; sourceTree = "<group>"; };
+		96BBB6691EEAC61FEEC424EC3B6B79F8 /* Pods-handika-poke-app-Components-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-handika-poke-app-Components-acknowledgements.plist"; sourceTree = "<group>"; };
+		97DA122089B38ED56133D3EA412D4DC7 /* Pods-handika-poke-app-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-handika-poke-app-Info.plist"; sourceTree = "<group>"; };
+		9B4EFD8B599F7E695C0E4CFBF7C04D42 /* Pods-handika-poke-app-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-handika-poke-app-umbrella.h"; sourceTree = "<group>"; };
+		9CAE8EDA388CF751846C3DE7672CC29D /* Pods-handika-poke-app-Components-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-handika-poke-app-Components-umbrella.h"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9F73B2297467AA29677B0735FEA3B9EC /* Pods-handika-poke-app.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-handika-poke-app.debug.xcconfig"; sourceTree = "<group>"; };
+		9F80F46B762A2C8F9DEF43916D34FE17 /* Pods-handika-poke-app-RouterServiceInterface.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-handika-poke-app-RouterServiceInterface.release.xcconfig"; sourceTree = "<group>"; };
+		A2700F1CB029A7DECDAA8A4187D6551E /* Pods-handika-poke-app.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-handika-poke-app.modulemap"; sourceTree = "<group>"; };
+		A43FA479C25D35B972F7DEED698B5D41 /* Pods-handika-poke-app-RouterServiceInterface */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-handika-poke-app-RouterServiceInterface"; path = Pods_handika_poke_app_RouterServiceInterface.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		ACAD1EDC720AC50BA94596B26CD60C9D /* Pods-handika-poke-app-Components.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-handika-poke-app-Components.debug.xcconfig"; sourceTree = "<group>"; };
+		ADF4BE497B7EF813CEB018BBC088BB5C /* Pods-handika-poke-appTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-handika-poke-appTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		B402AD680F2F27AF7E46E33009FC9861 /* Pods-handika-poke-app-RouterService */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-handika-poke-app-RouterService"; path = Pods_handika_poke_app_RouterService.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B48235F2FEA10240D73AADFDB14DEACC /* Pods-handika-poke-app-RouterService.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-handika-poke-app-RouterService.modulemap"; sourceTree = "<group>"; };
+		B4C180B0D4F16D335AB4F697E9F7E11C /* Pods-handika-poke-appTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-handika-poke-appTests.modulemap"; sourceTree = "<group>"; };
+		B6F4BFDC35DAA3D418032CC01FCFC3B3 /* Pods-handika-poke-appTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-handika-poke-appTests.release.xcconfig"; sourceTree = "<group>"; };
+		BED7FB9EADB0ADA82135634B2D641D67 /* Pods-handika-poke-appTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-handika-poke-appTests.debug.xcconfig"; sourceTree = "<group>"; };
+		C59F546EF33DF4AC831DE8CD253CEB0F /* Pods-handika-poke-appTests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-handika-poke-appTests"; path = Pods_handika_poke_appTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C5CB2C57212875E26A94575A55200D6E /* Pods-handika-poke-app-Common-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-handika-poke-app-Common-acknowledgements.plist"; sourceTree = "<group>"; };
+		C68CA996CB68D7852A527CEE29A8EC85 /* Pods-handika-poke-app-Networking.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-handika-poke-app-Networking.release.xcconfig"; sourceTree = "<group>"; };
+		D6381BCB49D7B19D205202A83D2DE79C /* Pods-handika-poke-app-RouterServiceInterface-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-handika-poke-app-RouterServiceInterface-acknowledgements.markdown"; sourceTree = "<group>"; };
+		D96525F07CF338113D53C6FF8C43E163 /* Pods-handika-poke-app-Networking-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-handika-poke-app-Networking-umbrella.h"; sourceTree = "<group>"; };
+		DB81A8DE33B88D110BC4EA298A4C8201 /* Pods-handika-poke-app-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-handika-poke-app-acknowledgements.markdown"; sourceTree = "<group>"; };
+		DF7D3A3CD465FBAD583570E69C0C78D0 /* Pods-handika-poke-app-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-handika-poke-app-acknowledgements.plist"; sourceTree = "<group>"; };
+		DFDF25A2CC0CF40F747589714ACC5106 /* Pods-handika-poke-app-Components.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-handika-poke-app-Components.release.xcconfig"; sourceTree = "<group>"; };
+		E0DE6AD08D351BFFB570E45540490A11 /* Pods-handika-poke-app-RouterService-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-handika-poke-app-RouterService-acknowledgements.markdown"; sourceTree = "<group>"; };
+		E7972147CE051D24D829AE774226ABE8 /* Pods-handika-poke-app-RouterServiceInterface.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-handika-poke-app-RouterServiceInterface.modulemap"; sourceTree = "<group>"; };
+		EAA49A559739C4E70E616606DAFA6B57 /* Pods-handika-poke-app-Common-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-handika-poke-app-Common-acknowledgements.markdown"; sourceTree = "<group>"; };
+		EC1901B6A9FCA81581F86ED67CB0D7D6 /* Pods-handika-poke-app-Components-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-handika-poke-app-Components-acknowledgements.markdown"; sourceTree = "<group>"; };
+		F34FD40D3887E7C59CD373179609C023 /* Pods-handika-poke-app-RouterServiceInterface-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-handika-poke-app-RouterServiceInterface-acknowledgements.plist"; sourceTree = "<group>"; };
+		FF5C35B0070628BD7A88362B687558E8 /* Pods-handika-poke-app-Common-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-handika-poke-app-Common-umbrella.h"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1A6A9B5C904019E2952E96105CD698A4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BCEA637E959F65B62FE54B55D826B8D0 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3BDCBC070C53C2D3BB530949EEFAA7C1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD11FECF0E9078E37B544EED17209959 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		56D911A47040BAD66339430CC9631B99 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				91019E88FF0694E1C14CCE2C468D615F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5C8232BAF0858C652037BAC6F1DD3B07 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BAAF85F80AE89A0E338ED0A5E58406F0 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5F8D6758EC0C8B81DEA48CB362EBBEB0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C794696E4D25877C3BBA628CEE88C5C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8BE20983825F9D47338FE7406F5AC71C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6E726294C5DEF2DB956D901F431207D7 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E7CF9BB8302FF377161A79D20689017A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9331B3346C6860973BF1EE9041331445 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0276CF41C9028A798634287553F8E71B /* Pods-handika-poke-app-Common */ = {
+			isa = PBXGroup;
+			children = (
+				4860A5A30DFD3891D014A8F8BE2AE474 /* Pods-handika-poke-app-Common.modulemap */,
+				EAA49A559739C4E70E616606DAFA6B57 /* Pods-handika-poke-app-Common-acknowledgements.markdown */,
+				C5CB2C57212875E26A94575A55200D6E /* Pods-handika-poke-app-Common-acknowledgements.plist */,
+				4462F1DD12A111EC0980E4E0D2F259DC /* Pods-handika-poke-app-Common-dummy.m */,
+				2502001D6705FCCFD5CDBAA51B77EEE6 /* Pods-handika-poke-app-Common-Info.plist */,
+				FF5C35B0070628BD7A88362B687558E8 /* Pods-handika-poke-app-Common-umbrella.h */,
+				000D096F720445DFF2F4FA2B43F00788 /* Pods-handika-poke-app-Common.debug.xcconfig */,
+				41310F575C57C65F283BA4FCD0E7407F /* Pods-handika-poke-app-Common.release.xcconfig */,
+			);
+			name = "Pods-handika-poke-app-Common";
+			path = "Target Support Files/Pods-handika-poke-app-Common";
+			sourceTree = "<group>";
+		};
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		7F3723DDFD206B441DA1A188CEBFEC60 /* Pods-handika-poke-app-Networking */ = {
+			isa = PBXGroup;
+			children = (
+				23BDBE4B16AA65B9582E1B7C3D4B3C13 /* Pods-handika-poke-app-Networking.modulemap */,
+				0C734A06B4C0681EC9CBDA8612474A58 /* Pods-handika-poke-app-Networking-acknowledgements.markdown */,
+				68D49D57284920604487A66309FF350C /* Pods-handika-poke-app-Networking-acknowledgements.plist */,
+				6F1FEDBAF1196F7338D15D9B27248616 /* Pods-handika-poke-app-Networking-dummy.m */,
+				38BD7CB86153D5AB8CD105E9564E7096 /* Pods-handika-poke-app-Networking-Info.plist */,
+				D96525F07CF338113D53C6FF8C43E163 /* Pods-handika-poke-app-Networking-umbrella.h */,
+				115A30EB9D60B8BBA203AF28FC0ECF8B /* Pods-handika-poke-app-Networking.debug.xcconfig */,
+				C68CA996CB68D7852A527CEE29A8EC85 /* Pods-handika-poke-app-Networking.release.xcconfig */,
+			);
+			name = "Pods-handika-poke-app-Networking";
+			path = "Target Support Files/Pods-handika-poke-app-Networking";
+			sourceTree = "<group>";
+		};
+		8AB2528D8DE94F117B01D771EA3615A7 /* Pods-handika-poke-app */ = {
+			isa = PBXGroup;
+			children = (
+				A2700F1CB029A7DECDAA8A4187D6551E /* Pods-handika-poke-app.modulemap */,
+				DB81A8DE33B88D110BC4EA298A4C8201 /* Pods-handika-poke-app-acknowledgements.markdown */,
+				DF7D3A3CD465FBAD583570E69C0C78D0 /* Pods-handika-poke-app-acknowledgements.plist */,
+				81C9321D1A3262B036C4D575E1087029 /* Pods-handika-poke-app-dummy.m */,
+				97DA122089B38ED56133D3EA412D4DC7 /* Pods-handika-poke-app-Info.plist */,
+				9B4EFD8B599F7E695C0E4CFBF7C04D42 /* Pods-handika-poke-app-umbrella.h */,
+				9F73B2297467AA29677B0735FEA3B9EC /* Pods-handika-poke-app.debug.xcconfig */,
+				19CFC17AD0E3CF09A23A3F2EC32350E4 /* Pods-handika-poke-app.release.xcconfig */,
+			);
+			name = "Pods-handika-poke-app";
+			path = "Target Support Files/Pods-handika-poke-app";
+			sourceTree = "<group>";
+		};
+		8FB9D5EFB50E0E3FC475A673938F234F /* Pods-handika-poke-app-RouterService */ = {
+			isa = PBXGroup;
+			children = (
+				B48235F2FEA10240D73AADFDB14DEACC /* Pods-handika-poke-app-RouterService.modulemap */,
+				E0DE6AD08D351BFFB570E45540490A11 /* Pods-handika-poke-app-RouterService-acknowledgements.markdown */,
+				2F01761563520A80FEFE1DAA99F9BD6C /* Pods-handika-poke-app-RouterService-acknowledgements.plist */,
+				50B032B718EC56B818EACA1C8DA22D35 /* Pods-handika-poke-app-RouterService-dummy.m */,
+				3E621B298782BC65476261741E68C95A /* Pods-handika-poke-app-RouterService-Info.plist */,
+				08F83849FEBF7930A8C483AF5F6EE021 /* Pods-handika-poke-app-RouterService-umbrella.h */,
+				4A7CD06E004DC25A3A7632F856C4EA04 /* Pods-handika-poke-app-RouterService.debug.xcconfig */,
+				6513410DF451791051ED39636288D8E2 /* Pods-handika-poke-app-RouterService.release.xcconfig */,
+			);
+			name = "Pods-handika-poke-app-RouterService";
+			path = "Target Support Files/Pods-handika-poke-app-RouterService";
+			sourceTree = "<group>";
+		};
+		96865029E1A3722CC4D7FF50DCC944AD /* Pods-handika-poke-app-Components */ = {
+			isa = PBXGroup;
+			children = (
+				6831EAACDE54B6177373313590AFEAB9 /* Pods-handika-poke-app-Components.modulemap */,
+				EC1901B6A9FCA81581F86ED67CB0D7D6 /* Pods-handika-poke-app-Components-acknowledgements.markdown */,
+				96BBB6691EEAC61FEEC424EC3B6B79F8 /* Pods-handika-poke-app-Components-acknowledgements.plist */,
+				1CB4805201B4E7A91E344871B3FB40F0 /* Pods-handika-poke-app-Components-dummy.m */,
+				0F48E1CD780E42FCA0DEFA6596669D6C /* Pods-handika-poke-app-Components-Info.plist */,
+				9CAE8EDA388CF751846C3DE7672CC29D /* Pods-handika-poke-app-Components-umbrella.h */,
+				ACAD1EDC720AC50BA94596B26CD60C9D /* Pods-handika-poke-app-Components.debug.xcconfig */,
+				DFDF25A2CC0CF40F747589714ACC5106 /* Pods-handika-poke-app-Components.release.xcconfig */,
+			);
+			name = "Pods-handika-poke-app-Components";
+			path = "Target Support Files/Pods-handika-poke-app-Components";
+			sourceTree = "<group>";
+		};
+		ACADB6603A4CC98B277AF620DD92604C /* Pods-handika-poke-appTests */ = {
+			isa = PBXGroup;
+			children = (
+				B4C180B0D4F16D335AB4F697E9F7E11C /* Pods-handika-poke-appTests.modulemap */,
+				5A479AA6F0F82622D0E58FF94AE6846E /* Pods-handika-poke-appTests-acknowledgements.markdown */,
+				ADF4BE497B7EF813CEB018BBC088BB5C /* Pods-handika-poke-appTests-acknowledgements.plist */,
+				3B31C81CCCD3D43ABE238F11E534C4BB /* Pods-handika-poke-appTests-dummy.m */,
+				46BA15084FBE12A3B64F80815366B6EA /* Pods-handika-poke-appTests-Info.plist */,
+				61EA1EE8ED5D25E20FA88D5AD681FBAB /* Pods-handika-poke-appTests-umbrella.h */,
+				BED7FB9EADB0ADA82135634B2D641D67 /* Pods-handika-poke-appTests.debug.xcconfig */,
+				B6F4BFDC35DAA3D418032CC01FCFC3B3 /* Pods-handika-poke-appTests.release.xcconfig */,
+			);
+			name = "Pods-handika-poke-appTests";
+			path = "Target Support Files/Pods-handika-poke-appTests";
+			sourceTree = "<group>";
+		};
+		C2144EE270E6B092D419543B9ADAA9C4 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				8AB2528D8DE94F117B01D771EA3615A7 /* Pods-handika-poke-app */,
+				0276CF41C9028A798634287553F8E71B /* Pods-handika-poke-app-Common */,
+				96865029E1A3722CC4D7FF50DCC944AD /* Pods-handika-poke-app-Components */,
+				7F3723DDFD206B441DA1A188CEBFEC60 /* Pods-handika-poke-app-Networking */,
+				8FB9D5EFB50E0E3FC475A673938F234F /* Pods-handika-poke-app-RouterService */,
+				DD50A7169DDBBC90CC45888B73188969 /* Pods-handika-poke-app-RouterServiceInterface */,
+				ACADB6603A4CC98B277AF620DD92604C /* Pods-handika-poke-appTests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				EE1FABDC041727C9A155E33CE2B4EB2A /* Products */,
+				C2144EE270E6B092D419543B9ADAA9C4 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DD50A7169DDBBC90CC45888B73188969 /* Pods-handika-poke-app-RouterServiceInterface */ = {
+			isa = PBXGroup;
+			children = (
+				E7972147CE051D24D829AE774226ABE8 /* Pods-handika-poke-app-RouterServiceInterface.modulemap */,
+				D6381BCB49D7B19D205202A83D2DE79C /* Pods-handika-poke-app-RouterServiceInterface-acknowledgements.markdown */,
+				F34FD40D3887E7C59CD373179609C023 /* Pods-handika-poke-app-RouterServiceInterface-acknowledgements.plist */,
+				5D3AC55AC0A4D92B34F67E7D08658484 /* Pods-handika-poke-app-RouterServiceInterface-dummy.m */,
+				0784F4ACCE69CD810898B3EC1D3E1850 /* Pods-handika-poke-app-RouterServiceInterface-Info.plist */,
+				8183C76DD450AE6611DFF8F633FAE0DC /* Pods-handika-poke-app-RouterServiceInterface-umbrella.h */,
+				4CC627986760DD35BEFF3D5472E9DEDE /* Pods-handika-poke-app-RouterServiceInterface.debug.xcconfig */,
+				9F80F46B762A2C8F9DEF43916D34FE17 /* Pods-handika-poke-app-RouterServiceInterface.release.xcconfig */,
+			);
+			name = "Pods-handika-poke-app-RouterServiceInterface";
+			path = "Target Support Files/Pods-handika-poke-app-RouterServiceInterface";
+			sourceTree = "<group>";
+		};
+		EE1FABDC041727C9A155E33CE2B4EB2A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				648D747805DA21204E863EF072313F41 /* Pods-handika-poke-app */,
+				36512D472272433B148B49311ACD09FB /* Pods-handika-poke-app-Common */,
+				3AA35438F44CCED3D219D6F410829662 /* Pods-handika-poke-app-Components */,
+				232F74E321CED7CFF9616E9D990C6BDC /* Pods-handika-poke-app-Networking */,
+				B402AD680F2F27AF7E46E33009FC9861 /* Pods-handika-poke-app-RouterService */,
+				A43FA479C25D35B972F7DEED698B5D41 /* Pods-handika-poke-app-RouterServiceInterface */,
+				C59F546EF33DF4AC831DE8CD253CEB0F /* Pods-handika-poke-appTests */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		2143285F2CE6031B296728FCB735486F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB02E04F1C3FC53DBC9740D896ECECB2 /* Pods-handika-poke-app-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		303389E8C986B361A7981295A9DEF789 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5E6366AA60F5DEA4820010826E575667 /* Pods-handika-poke-app-RouterService-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F3DF94ACF21604398D4112C086BEE67 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				121A8868A57EA80ABF467E348AEFE1EA /* Pods-handika-poke-appTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6B24B0356D50FA5AA9D4C6490BD262D6 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7D19F5F8DE2A485F16418DF9CCD35755 /* Pods-handika-poke-app-RouterServiceInterface-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8F3996CE608D0C04F5AB422CBBAEA1EF /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F875BA1BD8C46422FB3AFB7651C4880 /* Pods-handika-poke-app-Common-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		91717C0D9630965BD25CD203E830E3EC /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4A9387394A3F29DB91EC44006F3D9B3D /* Pods-handika-poke-app-Components-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E6E85D25B6D80E216DBF79B87D2F3A30 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B648E75E5657644D7AAE13276182C16B /* Pods-handika-poke-app-Networking-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		1E33169D023B2D80C8ABB1205ACFD0C6 /* Pods-handika-poke-app-Networking */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6B909D701D66FD9C3EC4027E57B3DAE5 /* Build configuration list for PBXNativeTarget "Pods-handika-poke-app-Networking" */;
+			buildPhases = (
+				E6E85D25B6D80E216DBF79B87D2F3A30 /* Headers */,
+				630CDDFF7E0F5D2E1ED9131A771B9518 /* Sources */,
+				1A6A9B5C904019E2952E96105CD698A4 /* Frameworks */,
+				255E1B098F3BC728F5089523B1664E7B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-handika-poke-app-Networking";
+			productName = Pods_handika_poke_app_Networking;
+			productReference = 232F74E321CED7CFF9616E9D990C6BDC /* Pods-handika-poke-app-Networking */;
+			productType = "com.apple.product-type.framework";
+		};
+		775AF58DA9D100385410789C94E3E96F /* Pods-handika-poke-app-Components */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 895D937762B75171796D62995A985884 /* Build configuration list for PBXNativeTarget "Pods-handika-poke-app-Components" */;
+			buildPhases = (
+				91717C0D9630965BD25CD203E830E3EC /* Headers */,
+				146CA60515E2162CBC1E00A9DF7A3764 /* Sources */,
+				5F8D6758EC0C8B81DEA48CB362EBBEB0 /* Frameworks */,
+				D60A2D115E7409D4B96537892A4A2C12 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-handika-poke-app-Components";
+			productName = Pods_handika_poke_app_Components;
+			productReference = 3AA35438F44CCED3D219D6F410829662 /* Pods-handika-poke-app-Components */;
+			productType = "com.apple.product-type.framework";
+		};
+		848605B621C26AEEDAF1B8EDCD32ED85 /* Pods-handika-poke-app */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 02867FD601396DCDF1E4F09EE756B578 /* Build configuration list for PBXNativeTarget "Pods-handika-poke-app" */;
+			buildPhases = (
+				2143285F2CE6031B296728FCB735486F /* Headers */,
+				8C1C7F2795443089A170849BA7C7BCFC /* Sources */,
+				56D911A47040BAD66339430CC9631B99 /* Frameworks */,
+				F250E636FE3A5A11F2E0C333D0C52795 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-handika-poke-app";
+			productName = Pods_handika_poke_app;
+			productReference = 648D747805DA21204E863EF072313F41 /* Pods-handika-poke-app */;
+			productType = "com.apple.product-type.framework";
+		};
+		A916067EE59EA0E6BB35C7E80A9256EA /* Pods-handika-poke-app-RouterService */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 693A4788E258ABB40CB43EC8099F12A6 /* Build configuration list for PBXNativeTarget "Pods-handika-poke-app-RouterService" */;
+			buildPhases = (
+				303389E8C986B361A7981295A9DEF789 /* Headers */,
+				2B7283C2838E44CE3CF8E4FC451E776D /* Sources */,
+				3BDCBC070C53C2D3BB530949EEFAA7C1 /* Frameworks */,
+				5B41018E6D18BF012EF7BB1CF49946FE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-handika-poke-app-RouterService";
+			productName = Pods_handika_poke_app_RouterService;
+			productReference = B402AD680F2F27AF7E46E33009FC9861 /* Pods-handika-poke-app-RouterService */;
+			productType = "com.apple.product-type.framework";
+		};
+		B2F6032392225AF971E24F0883F1D8A7 /* Pods-handika-poke-appTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A205053F34CF07D44B28ECC0AE090F90 /* Build configuration list for PBXNativeTarget "Pods-handika-poke-appTests" */;
+			buildPhases = (
+				3F3DF94ACF21604398D4112C086BEE67 /* Headers */,
+				8925184276BC3D132AD560B8940BAC85 /* Sources */,
+				E7CF9BB8302FF377161A79D20689017A /* Frameworks */,
+				34B534F22B2F1E9ECC0E1029440D3C6A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				273082D65CCF181D38ADFD7CBAFB30E0 /* PBXTargetDependency */,
+			);
+			name = "Pods-handika-poke-appTests";
+			productName = Pods_handika_poke_appTests;
+			productReference = C59F546EF33DF4AC831DE8CD253CEB0F /* Pods-handika-poke-appTests */;
+			productType = "com.apple.product-type.framework";
+		};
+		C66F0C7E3C5162E4C62161AE6C25228D /* Pods-handika-poke-app-RouterServiceInterface */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8473571153DCEF0C3AC7AF60DE693FA3 /* Build configuration list for PBXNativeTarget "Pods-handika-poke-app-RouterServiceInterface" */;
+			buildPhases = (
+				6B24B0356D50FA5AA9D4C6490BD262D6 /* Headers */,
+				5CF5409984106F33A16917F34B83E600 /* Sources */,
+				8BE20983825F9D47338FE7406F5AC71C /* Frameworks */,
+				E11FAB74D118A572F5357FC994E2ACC1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-handika-poke-app-RouterServiceInterface";
+			productName = Pods_handika_poke_app_RouterServiceInterface;
+			productReference = A43FA479C25D35B972F7DEED698B5D41 /* Pods-handika-poke-app-RouterServiceInterface */;
+			productType = "com.apple.product-type.framework";
+		};
+		DA10C16954529E1D17A8FE5061B4BAF1 /* Pods-handika-poke-app-Common */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6A9A6C227E81D7BB32ACA76D79B6617B /* Build configuration list for PBXNativeTarget "Pods-handika-poke-app-Common" */;
+			buildPhases = (
+				8F3996CE608D0C04F5AB422CBBAEA1EF /* Headers */,
+				C7A9F7A991FDAAE110EA855545D253E5 /* Sources */,
+				5C8232BAF0858C652037BAC6F1DD3B07 /* Frameworks */,
+				FE2BB6955C29989CC3204D212D2CC919 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-handika-poke-app-Common";
+			productName = Pods_handika_poke_app_Common;
+			productReference = 36512D472272433B148B49311ACD09FB /* Pods-handika-poke-app-Common */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = EE1FABDC041727C9A155E33CE2B4EB2A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				848605B621C26AEEDAF1B8EDCD32ED85 /* Pods-handika-poke-app */,
+				DA10C16954529E1D17A8FE5061B4BAF1 /* Pods-handika-poke-app-Common */,
+				775AF58DA9D100385410789C94E3E96F /* Pods-handika-poke-app-Components */,
+				1E33169D023B2D80C8ABB1205ACFD0C6 /* Pods-handika-poke-app-Networking */,
+				A916067EE59EA0E6BB35C7E80A9256EA /* Pods-handika-poke-app-RouterService */,
+				C66F0C7E3C5162E4C62161AE6C25228D /* Pods-handika-poke-app-RouterServiceInterface */,
+				B2F6032392225AF971E24F0883F1D8A7 /* Pods-handika-poke-appTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		255E1B098F3BC728F5089523B1664E7B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		34B534F22B2F1E9ECC0E1029440D3C6A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5B41018E6D18BF012EF7BB1CF49946FE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D60A2D115E7409D4B96537892A4A2C12 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E11FAB74D118A572F5357FC994E2ACC1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F250E636FE3A5A11F2E0C333D0C52795 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FE2BB6955C29989CC3204D212D2CC919 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		146CA60515E2162CBC1E00A9DF7A3764 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E72052A6E4AE420714AFE54B982831B2 /* Pods-handika-poke-app-Components-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2B7283C2838E44CE3CF8E4FC451E776D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F230AEDB5F74616160755FE224458F39 /* Pods-handika-poke-app-RouterService-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5CF5409984106F33A16917F34B83E600 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				98976A2DD87766E5F9123AB250F5DA17 /* Pods-handika-poke-app-RouterServiceInterface-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		630CDDFF7E0F5D2E1ED9131A771B9518 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B37A073D06FAA8DCD24AB1B9E38A5393 /* Pods-handika-poke-app-Networking-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8925184276BC3D132AD560B8940BAC85 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C05157EEBE05A796992EB691AF2A62A7 /* Pods-handika-poke-appTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8C1C7F2795443089A170849BA7C7BCFC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DCE84A125D5DB04BC7ADC7B2D507D0AA /* Pods-handika-poke-app-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C7A9F7A991FDAAE110EA855545D253E5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA3C1AB762D61F93669A221B66DF67E1 /* Pods-handika-poke-app-Common-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		273082D65CCF181D38ADFD7CBAFB30E0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-handika-poke-app";
+			target = 848605B621C26AEEDAF1B8EDCD32ED85 /* Pods-handika-poke-app */;
+			targetProxy = 997459A22074B1E946DF57613DE143C8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0782A175E0D67409467C9B9C7B1127A0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C68CA996CB68D7852A527CEE29A8EC85 /* Pods-handika-poke-app-Networking.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = "Target Support Files/Pods-handika-poke-app-Networking/Pods-handika-poke-app-Networking-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-handika-poke-app-Networking/Pods-handika-poke-app-Networking.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		2189311ABB76A7D3A6792F29EBD591F2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 000D096F720445DFF2F4FA2B43F00788 /* Pods-handika-poke-app-Common.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = "Target Support Files/Pods-handika-poke-app-Common/Pods-handika-poke-app-Common-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-handika-poke-app-Common/Pods-handika-poke-app-Common.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		28C3BA6C0D87C98D2C7EB21100F7F665 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6513410DF451791051ED39636288D8E2 /* Pods-handika-poke-app-RouterService.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = "Target Support Files/Pods-handika-poke-app-RouterService/Pods-handika-poke-app-RouterService-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-handika-poke-app-RouterService/Pods-handika-poke-app-RouterService.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		3705215D718F877931E872F617700CA8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9F80F46B762A2C8F9DEF43916D34FE17 /* Pods-handika-poke-app-RouterServiceInterface.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = "Target Support Files/Pods-handika-poke-app-RouterServiceInterface/Pods-handika-poke-app-RouterServiceInterface-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-handika-poke-app-RouterServiceInterface/Pods-handika-poke-app-RouterServiceInterface.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		3749B586E2D1ED536029099A0D613508 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9F73B2297467AA29677B0735FEA3B9EC /* Pods-handika-poke-app.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = "Target Support Files/Pods-handika-poke-app/Pods-handika-poke-app-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-handika-poke-app/Pods-handika-poke-app.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		3EA09BF53572E52A416C2AD0CCD1A486 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 115A30EB9D60B8BBA203AF28FC0ECF8B /* Pods-handika-poke-app-Networking.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = "Target Support Files/Pods-handika-poke-app-Networking/Pods-handika-poke-app-Networking-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-handika-poke-app-Networking/Pods-handika-poke-app-Networking.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		42F2CF4597710BD38D7A7C6F23E862AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4A7CD06E004DC25A3A7632F856C4EA04 /* Pods-handika-poke-app-RouterService.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = "Target Support Files/Pods-handika-poke-app-RouterService/Pods-handika-poke-app-RouterService-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-handika-poke-app-RouterService/Pods-handika-poke-app-RouterService.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		5F2280AD32F8308ECFB3429FBBDDC875 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 41310F575C57C65F283BA4FCD0E7407F /* Pods-handika-poke-app-Common.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = "Target Support Files/Pods-handika-poke-app-Common/Pods-handika-poke-app-Common-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-handika-poke-app-Common/Pods-handika-poke-app-Common.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		6451A9FEB3EB60C8520AB108D7E68F62 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = ACAD1EDC720AC50BA94596B26CD60C9D /* Pods-handika-poke-app-Components.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = "Target Support Files/Pods-handika-poke-app-Components/Pods-handika-poke-app-Components-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-handika-poke-app-Components/Pods-handika-poke-app-Components.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		69487BB76C9810B5AAAB8399BDCBB014 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 19CFC17AD0E3CF09A23A3F2EC32350E4 /* Pods-handika-poke-app.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = "Target Support Files/Pods-handika-poke-app/Pods-handika-poke-app-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-handika-poke-app/Pods-handika-poke-app.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		6C7A26D8B26EAB1896BD12F59AEDF626 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BED7FB9EADB0ADA82135634B2D641D67 /* Pods-handika-poke-appTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = "Target Support Files/Pods-handika-poke-appTests/Pods-handika-poke-appTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-handika-poke-appTests/Pods-handika-poke-appTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		84E7C82A4EE2DAE906B7EB23682E3540 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DFDF25A2CC0CF40F747589714ACC5106 /* Pods-handika-poke-app-Components.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = "Target Support Files/Pods-handika-poke-app-Components/Pods-handika-poke-app-Components-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-handika-poke-app-Components/Pods-handika-poke-app-Components.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		8DE5143C03248BB6CD542DE3963D6F3A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		9E406C6AAF85E580207CD97B0044DEAB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		D2F32FA8977B97E3565DCB45BD035134 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B6F4BFDC35DAA3D418032CC01FCFC3B3 /* Pods-handika-poke-appTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = "Target Support Files/Pods-handika-poke-appTests/Pods-handika-poke-appTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-handika-poke-appTests/Pods-handika-poke-appTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		E9E35382CAC1758C68895E8E8A83DC28 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4CC627986760DD35BEFF3D5472E9DEDE /* Pods-handika-poke-app-RouterServiceInterface.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = "Target Support Files/Pods-handika-poke-app-RouterServiceInterface/Pods-handika-poke-app-RouterServiceInterface-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-handika-poke-app-RouterServiceInterface/Pods-handika-poke-app-RouterServiceInterface.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		02867FD601396DCDF1E4F09EE756B578 /* Build configuration list for PBXNativeTarget "Pods-handika-poke-app" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3749B586E2D1ED536029099A0D613508 /* Debug */,
+				69487BB76C9810B5AAAB8399BDCBB014 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8DE5143C03248BB6CD542DE3963D6F3A /* Debug */,
+				9E406C6AAF85E580207CD97B0044DEAB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		693A4788E258ABB40CB43EC8099F12A6 /* Build configuration list for PBXNativeTarget "Pods-handika-poke-app-RouterService" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				42F2CF4597710BD38D7A7C6F23E862AF /* Debug */,
+				28C3BA6C0D87C98D2C7EB21100F7F665 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6A9A6C227E81D7BB32ACA76D79B6617B /* Build configuration list for PBXNativeTarget "Pods-handika-poke-app-Common" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2189311ABB76A7D3A6792F29EBD591F2 /* Debug */,
+				5F2280AD32F8308ECFB3429FBBDDC875 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6B909D701D66FD9C3EC4027E57B3DAE5 /* Build configuration list for PBXNativeTarget "Pods-handika-poke-app-Networking" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3EA09BF53572E52A416C2AD0CCD1A486 /* Debug */,
+				0782A175E0D67409467C9B9C7B1127A0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8473571153DCEF0C3AC7AF60DE693FA3 /* Build configuration list for PBXNativeTarget "Pods-handika-poke-app-RouterServiceInterface" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E9E35382CAC1758C68895E8E8A83DC28 /* Debug */,
+				3705215D718F877931E872F617700CA8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		895D937762B75171796D62995A985884 /* Build configuration list for PBXNativeTarget "Pods-handika-poke-app-Components" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6451A9FEB3EB60C8520AB108D7E68F62 /* Debug */,
+				84E7C82A4EE2DAE906B7EB23682E3540 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A205053F34CF07D44B28ECC0AE090F90 /* Build configuration list for PBXNativeTarget "Pods-handika-poke-appTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6C7A26D8B26EAB1896BD12F59AEDF626 /* Debug */,
+				D2F32FA8977B97E3565DCB45BD035134 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
