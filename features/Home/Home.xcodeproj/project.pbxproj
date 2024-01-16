@@ -1,0 +1,540 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1C5EE749D7C30A8D18260813 /* Pods_handika_poke_app_Home.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0032F88FC75263A5C553B9E5 /* Pods_handika_poke_app_Home.framework */; };
+		A1414F112B56885D00374A88 /* HomeContract.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1414F0B2B56885D00374A88 /* HomeContract.swift */; };
+		A1414F122B56885D00374A88 /* HomePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1414F0C2B56885D00374A88 /* HomePresenter.swift */; };
+		A1414F132B56885D00374A88 /* HomeRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1414F0D2B56885D00374A88 /* HomeRouter.swift */; };
+		A1414F142B56885D00374A88 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1414F0E2B56885D00374A88 /* HomeViewController.swift */; };
+		A1414F152B56885D00374A88 /* HomeInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1414F0F2B56885D00374A88 /* HomeInteractor.swift */; };
+		A1414F162B56885D00374A88 /* HomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A1414F102B56885D00374A88 /* HomeViewController.xib */; };
+		A1414F182B56889700374A88 /* RouterServiceInterface.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A1414F172B56889700374A88 /* RouterServiceInterface.framework */; };
+		A1414F192B56889700374A88 /* RouterServiceInterface.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = A1414F172B56889700374A88 /* RouterServiceInterface.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		A1414F1C2B5689D800374A88 /* HomeFeature.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1414F1B2B5689D800374A88 /* HomeFeature.swift */; };
+		A1414F4F2B56A04600374A88 /* NavigationRoute.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A1414F4E2B56A04600374A88 /* NavigationRoute.framework */; };
+		A1414F502B56A04600374A88 /* NavigationRoute.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = A1414F4E2B56A04600374A88 /* NavigationRoute.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		A1414F562B56A21E00374A88 /* PokemonService.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1414F552B56A21E00374A88 /* PokemonService.swift */; };
+		A1414F582B56A24300374A88 /* PokemonAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1414F572B56A24300374A88 /* PokemonAPI.swift */; };
+		A1414F5A2B56A25200374A88 /* Networking.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A1414F592B56A25200374A88 /* Networking.framework */; };
+		A1414F5B2B56A25200374A88 /* Networking.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = A1414F592B56A25200374A88 /* Networking.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		A1414F5E2B56A2E100374A88 /* PokemonListModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1414F5D2B56A2E100374A88 /* PokemonListModel.swift */; };
+		A1414F612B56A2F900374A88 /* PokemonModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1414F602B56A2F900374A88 /* PokemonModel.swift */; };
+		A1414F632B56A68600374A88 /* Components.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A1414F622B56A68600374A88 /* Components.framework */; };
+		A1414F642B56A68600374A88 /* Components.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = A1414F622B56A68600374A88 /* Components.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		A1414F692B56CB9F00374A88 /* PokemonCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1414F672B56CB9F00374A88 /* PokemonCollectionViewCell.swift */; };
+		A1414F6A2B56CB9F00374A88 /* PokemonCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A1414F682B56CB9F00374A88 /* PokemonCollectionViewCell.xib */; };
+		A1414F6C2B56CCD800374A88 /* Common.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A1414F6B2B56CCD800374A88 /* Common.framework */; };
+		A1414F6D2B56CCD800374A88 /* Common.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = A1414F6B2B56CCD800374A88 /* Common.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		A1414F9F2B56D42000374A88 /* Shared.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A1414F9E2B56D42000374A88 /* Shared.framework */; };
+		A1414FA02B56D42000374A88 /* Shared.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = A1414F9E2B56D42000374A88 /* Shared.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		A1414F1A2B56889800374A88 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				A1414F502B56A04600374A88 /* NavigationRoute.framework in Embed Frameworks */,
+				A1414FA02B56D42000374A88 /* Shared.framework in Embed Frameworks */,
+				A1414F192B56889700374A88 /* RouterServiceInterface.framework in Embed Frameworks */,
+				A1414F6D2B56CCD800374A88 /* Common.framework in Embed Frameworks */,
+				A1414F642B56A68600374A88 /* Components.framework in Embed Frameworks */,
+				A1414F5B2B56A25200374A88 /* Networking.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		0032F88FC75263A5C553B9E5 /* Pods_handika_poke_app_Home.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_handika_poke_app_Home.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A1414F012B56881E00374A88 /* Home.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Home.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A1414F0B2B56885D00374A88 /* HomeContract.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeContract.swift; sourceTree = "<group>"; };
+		A1414F0C2B56885D00374A88 /* HomePresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePresenter.swift; sourceTree = "<group>"; };
+		A1414F0D2B56885D00374A88 /* HomeRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeRouter.swift; sourceTree = "<group>"; };
+		A1414F0E2B56885D00374A88 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		A1414F0F2B56885D00374A88 /* HomeInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeInteractor.swift; sourceTree = "<group>"; };
+		A1414F102B56885D00374A88 /* HomeViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeViewController.xib; sourceTree = "<group>"; };
+		A1414F172B56889700374A88 /* RouterServiceInterface.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = RouterServiceInterface.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A1414F1B2B5689D800374A88 /* HomeFeature.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeFeature.swift; sourceTree = "<group>"; };
+		A1414F4E2B56A04600374A88 /* NavigationRoute.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = NavigationRoute.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A1414F552B56A21E00374A88 /* PokemonService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PokemonService.swift; sourceTree = "<group>"; };
+		A1414F572B56A24300374A88 /* PokemonAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PokemonAPI.swift; sourceTree = "<group>"; };
+		A1414F592B56A25200374A88 /* Networking.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Networking.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A1414F5D2B56A2E100374A88 /* PokemonListModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PokemonListModel.swift; sourceTree = "<group>"; };
+		A1414F602B56A2F900374A88 /* PokemonModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PokemonModel.swift; sourceTree = "<group>"; };
+		A1414F622B56A68600374A88 /* Components.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Components.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A1414F672B56CB9F00374A88 /* PokemonCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PokemonCollectionViewCell.swift; sourceTree = "<group>"; };
+		A1414F682B56CB9F00374A88 /* PokemonCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PokemonCollectionViewCell.xib; sourceTree = "<group>"; };
+		A1414F6B2B56CCD800374A88 /* Common.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Common.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A1414F9E2B56D42000374A88 /* Shared.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Shared.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A85A8F660EF44F813CBD6656 /* Pods-handika-poke-app-Home.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-handika-poke-app-Home.release.xcconfig"; path = "Target Support Files/Pods-handika-poke-app-Home/Pods-handika-poke-app-Home.release.xcconfig"; sourceTree = "<group>"; };
+		AE8C02A388F1A2A92D024E37 /* Pods-handika-poke-app-Home.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-handika-poke-app-Home.debug.xcconfig"; path = "Target Support Files/Pods-handika-poke-app-Home/Pods-handika-poke-app-Home.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A1414EFE2B56881E00374A88 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1414F5A2B56A25200374A88 /* Networking.framework in Frameworks */,
+				A1414F4F2B56A04600374A88 /* NavigationRoute.framework in Frameworks */,
+				A1414F632B56A68600374A88 /* Components.framework in Frameworks */,
+				A1414F6C2B56CCD800374A88 /* Common.framework in Frameworks */,
+				A1414F182B56889700374A88 /* RouterServiceInterface.framework in Frameworks */,
+				A1414F9F2B56D42000374A88 /* Shared.framework in Frameworks */,
+				1C5EE749D7C30A8D18260813 /* Pods_handika_poke_app_Home.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0265A3A36A0BEF6545D36B2F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				AE8C02A388F1A2A92D024E37 /* Pods-handika-poke-app-Home.debug.xcconfig */,
+				A85A8F660EF44F813CBD6656 /* Pods-handika-poke-app-Home.release.xcconfig */,
+			);
+			name = Pods;
+			path = ../../Pods;
+			sourceTree = "<group>";
+		};
+		3F25D7E250CAB61D0211C760 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A1414F9E2B56D42000374A88 /* Shared.framework */,
+				A1414F6B2B56CCD800374A88 /* Common.framework */,
+				A1414F622B56A68600374A88 /* Components.framework */,
+				A1414F592B56A25200374A88 /* Networking.framework */,
+				A1414F4E2B56A04600374A88 /* NavigationRoute.framework */,
+				A1414F172B56889700374A88 /* RouterServiceInterface.framework */,
+				0032F88FC75263A5C553B9E5 /* Pods_handika_poke_app_Home.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A1414EF72B56881E00374A88 = {
+			isa = PBXGroup;
+			children = (
+				A1414F652B56CB7100374A88 /* Views */,
+				A1414F5C2B56A2D600374A88 /* Models */,
+				A1414F542B56A1D000374A88 /* APIService */,
+				A1414F032B56881E00374A88 /* Home */,
+				A1414F022B56881E00374A88 /* Products */,
+				0265A3A36A0BEF6545D36B2F /* Pods */,
+				3F25D7E250CAB61D0211C760 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		A1414F022B56881E00374A88 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A1414F012B56881E00374A88 /* Home.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A1414F032B56881E00374A88 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				A1414F1B2B5689D800374A88 /* HomeFeature.swift */,
+				A1414F0B2B56885D00374A88 /* HomeContract.swift */,
+				A1414F0C2B56885D00374A88 /* HomePresenter.swift */,
+				A1414F0D2B56885D00374A88 /* HomeRouter.swift */,
+				A1414F0E2B56885D00374A88 /* HomeViewController.swift */,
+				A1414F0F2B56885D00374A88 /* HomeInteractor.swift */,
+				A1414F102B56885D00374A88 /* HomeViewController.xib */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		A1414F542B56A1D000374A88 /* APIService */ = {
+			isa = PBXGroup;
+			children = (
+				A1414F552B56A21E00374A88 /* PokemonService.swift */,
+				A1414F572B56A24300374A88 /* PokemonAPI.swift */,
+			);
+			name = APIService;
+			sourceTree = "<group>";
+		};
+		A1414F5C2B56A2D600374A88 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				A1414F5D2B56A2E100374A88 /* PokemonListModel.swift */,
+				A1414F602B56A2F900374A88 /* PokemonModel.swift */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		A1414F652B56CB7100374A88 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				A1414F662B56CB7E00374A88 /* Cells */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		A1414F662B56CB7E00374A88 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				A1414F672B56CB9F00374A88 /* PokemonCollectionViewCell.swift */,
+				A1414F682B56CB9F00374A88 /* PokemonCollectionViewCell.xib */,
+			);
+			name = Cells;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		A1414EFC2B56881E00374A88 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		A1414F002B56881E00374A88 /* Home */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A1414F082B56881E00374A88 /* Build configuration list for PBXNativeTarget "Home" */;
+			buildPhases = (
+				54E0B048972BFC10E4B837A9 /* [CP] Check Pods Manifest.lock */,
+				A1414EFC2B56881E00374A88 /* Headers */,
+				A1414EFD2B56881E00374A88 /* Sources */,
+				A1414EFE2B56881E00374A88 /* Frameworks */,
+				A1414EFF2B56881E00374A88 /* Resources */,
+				A1414F1A2B56889800374A88 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Home;
+			productName = Home;
+			productReference = A1414F012B56881E00374A88 /* Home.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A1414EF82B56881E00374A88 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1510;
+				TargetAttributes = {
+					A1414F002B56881E00374A88 = {
+						CreatedOnToolsVersion = 15.1;
+						LastSwiftMigration = 1510;
+					};
+				};
+			};
+			buildConfigurationList = A1414EFB2B56881E00374A88 /* Build configuration list for PBXProject "Home" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A1414EF72B56881E00374A88;
+			productRefGroup = A1414F022B56881E00374A88 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A1414F002B56881E00374A88 /* Home */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A1414EFF2B56881E00374A88 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1414F6A2B56CB9F00374A88 /* PokemonCollectionViewCell.xib in Resources */,
+				A1414F162B56885D00374A88 /* HomeViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		54E0B048972BFC10E4B837A9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-handika-poke-app-Home-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A1414EFD2B56881E00374A88 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1414F112B56885D00374A88 /* HomeContract.swift in Sources */,
+				A1414F132B56885D00374A88 /* HomeRouter.swift in Sources */,
+				A1414F122B56885D00374A88 /* HomePresenter.swift in Sources */,
+				A1414F692B56CB9F00374A88 /* PokemonCollectionViewCell.swift in Sources */,
+				A1414F612B56A2F900374A88 /* PokemonModel.swift in Sources */,
+				A1414F1C2B5689D800374A88 /* HomeFeature.swift in Sources */,
+				A1414F562B56A21E00374A88 /* PokemonService.swift in Sources */,
+				A1414F152B56885D00374A88 /* HomeInteractor.swift in Sources */,
+				A1414F582B56A24300374A88 /* PokemonAPI.swift in Sources */,
+				A1414F5E2B56A2E100374A88 /* PokemonListModel.swift in Sources */,
+				A1414F142B56885D00374A88 /* HomeViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		A1414F062B56881E00374A88 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		A1414F072B56881E00374A88 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		A1414F092B56881E00374A88 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AE8C02A388F1A2A92D024E37 /* Pods-handika-poke-app-Home.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				MODULE_VERIFIER_SUPPORTED_LANGUAGES = "objective-c objective-c++";
+				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu17 gnu++20";
+				PRODUCT_BUNDLE_IDENTIFIER = core.Home;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A1414F0A2B56881E00374A88 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A85A8F660EF44F813CBD6656 /* Pods-handika-poke-app-Home.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				MODULE_VERIFIER_SUPPORTED_LANGUAGES = "objective-c objective-c++";
+				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu17 gnu++20";
+				PRODUCT_BUNDLE_IDENTIFIER = core.Home;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A1414EFB2B56881E00374A88 /* Build configuration list for PBXProject "Home" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A1414F062B56881E00374A88 /* Debug */,
+				A1414F072B56881E00374A88 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A1414F082B56881E00374A88 /* Build configuration list for PBXNativeTarget "Home" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A1414F092B56881E00374A88 /* Debug */,
+				A1414F0A2B56881E00374A88 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A1414EF82B56881E00374A88 /* Project object */;
+}

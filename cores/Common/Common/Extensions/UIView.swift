@@ -19,3 +19,11 @@ extension UIView {
         return view
     }
 }
+
+public extension UIView {
+    var snapshot: UIImage {
+        return UIGraphicsImageRenderer(size: bounds.size).image { _ in
+            drawHierarchy(in: bounds, afterScreenUpdates: false)
+        }
+    }
+}

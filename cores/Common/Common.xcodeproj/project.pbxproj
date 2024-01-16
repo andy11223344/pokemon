@@ -19,6 +19,8 @@
 		A1414DD32B5672C800374A88 /* UITableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1414DC82B5672C800374A88 /* UITableView.swift */; };
 		A1414DD42B5672C800374A88 /* UIWindow.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1414DC92B5672C800374A88 /* UIWindow.swift */; };
 		A1414DD52B5672C800374A88 /* UIControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1414DCA2B5672C800374A88 /* UIControl.swift */; };
+		A1414F302B569BC200374A88 /* UIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1414F2F2B569BC200374A88 /* UIViewController.swift */; };
+		A1414F6F2B56D13700374A88 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1414F6E2B56D13700374A88 /* BaseViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +38,8 @@
 		A1414DC82B5672C800374A88 /* UITableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UITableView.swift; sourceTree = "<group>"; };
 		A1414DC92B5672C800374A88 /* UIWindow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIWindow.swift; sourceTree = "<group>"; };
 		A1414DCA2B5672C800374A88 /* UIControl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIControl.swift; sourceTree = "<group>"; };
+		A1414F2F2B569BC200374A88 /* UIViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewController.swift; sourceTree = "<group>"; };
+		A1414F6E2B56D13700374A88 /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
 		B7C2D97C5DA6EE04ADDCA6B4 /* Pods-handika-poke-app-Common.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-handika-poke-app-Common.debug.xcconfig"; path = "Target Support Files/Pods-handika-poke-app-Common/Pods-handika-poke-app-Common.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -102,6 +106,7 @@
 			isa = PBXGroup;
 			children = (
 				A1414DC12B5672C800374A88 /* NameSpaceCompatible.swift */,
+				A1414F6E2B56D13700374A88 /* BaseViewController.swift */,
 			);
 			path = Base;
 			sourceTree = "<group>";
@@ -117,6 +122,7 @@
 				A1414DC82B5672C800374A88 /* UITableView.swift */,
 				A1414DC92B5672C800374A88 /* UIWindow.swift */,
 				A1414DCA2B5672C800374A88 /* UIControl.swift */,
+				A1414F2F2B569BC200374A88 /* UIViewController.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -234,8 +240,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A1414F6F2B56D13700374A88 /* BaseViewController.swift in Sources */,
 				A1414DD02B5672C800374A88 /* Currency.swift in Sources */,
 				A1414DCF2B5672C800374A88 /* UIView.swift in Sources */,
+				A1414F302B569BC200374A88 /* UIViewController.swift in Sources */,
 				A1414DCD2B5672C800374A88 /* NameSpaceCompatible.swift in Sources */,
 				A1414DCC2B5672C800374A88 /* Observable.swift in Sources */,
 				A1414DCB2B5672C800374A88 /* UserDefaultWrapper.swift in Sources */,

@@ -21,6 +21,13 @@
 		A1414EEB2B56822C00374A88 /* RouterService.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = A1414EE92B56822C00374A88 /* RouterService.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		A1414EF42B5684C900374A88 /* SplashScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1414EF32B5684C900374A88 /* SplashScreen.swift */; };
 		A1414EF62B5684E700374A88 /* SplashScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = A1414EF52B5684E700374A88 /* SplashScreen.xib */; };
+		A1414F1E2B568A7400374A88 /* Home.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A1414F1D2B568A7400374A88 /* Home.framework */; };
+		A1414F1F2B568A7400374A88 /* Home.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = A1414F1D2B568A7400374A88 /* Home.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		A1414F252B56914100374A88 /* DismissSplashTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1414F242B56914100374A88 /* DismissSplashTransition.swift */; };
+		A1414F2C2B5699BC00374A88 /* RouterServiceInterface.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A1414F2B2B5699BC00374A88 /* RouterServiceInterface.framework */; };
+		A1414F2D2B5699BC00374A88 /* RouterServiceInterface.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = A1414F2B2B5699BC00374A88 /* RouterServiceInterface.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		A1414F462B569FE200374A88 /* NavigationRoute.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A1414F452B569FE200374A88 /* NavigationRoute.framework */; };
+		A1414F472B569FE200374A88 /* NavigationRoute.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = A1414F452B569FE200374A88 /* NavigationRoute.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		D381A784A67B162EDB17039B /* Pods_handika_poke_app.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 30BB53A2DE54967169938331 /* Pods_handika_poke_app.framework */; };
 /* End PBXBuildFile section */
 
@@ -41,8 +48,11 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
+				A1414F472B569FE200374A88 /* NavigationRoute.framework in Embed Frameworks */,
+				A1414F2D2B5699BC00374A88 /* RouterServiceInterface.framework in Embed Frameworks */,
 				A1414EE42B567F8A00374A88 /* Common.framework in Embed Frameworks */,
 				A1414EEB2B56822C00374A88 /* RouterService.framework in Embed Frameworks */,
+				A1414F1F2B568A7400374A88 /* Home.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -68,6 +78,10 @@
 		A1414EE92B56822C00374A88 /* RouterService.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = RouterService.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A1414EF32B5684C900374A88 /* SplashScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashScreen.swift; sourceTree = "<group>"; };
 		A1414EF52B5684E700374A88 /* SplashScreen.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SplashScreen.xib; sourceTree = "<group>"; };
+		A1414F1D2B568A7400374A88 /* Home.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Home.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A1414F242B56914100374A88 /* DismissSplashTransition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DismissSplashTransition.swift; sourceTree = "<group>"; };
+		A1414F2B2B5699BC00374A88 /* RouterServiceInterface.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = RouterServiceInterface.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A1414F452B569FE200374A88 /* NavigationRoute.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = NavigationRoute.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D48F2F5EFBCBC5F08C9991E7 /* Pods_handika_poke_appTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_handika_poke_appTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E58869401F8DF1D93A7B084C /* Pods-handika-poke-app.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-handika-poke-app.release.xcconfig"; path = "Target Support Files/Pods-handika-poke-app/Pods-handika-poke-app.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -77,9 +91,12 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A1414F462B569FE200374A88 /* NavigationRoute.framework in Frameworks */,
 				A1414EEA2B56822C00374A88 /* RouterService.framework in Frameworks */,
+				A1414F2C2B5699BC00374A88 /* RouterServiceInterface.framework in Frameworks */,
 				D381A784A67B162EDB17039B /* Pods_handika_poke_app.framework in Frameworks */,
 				A1414EE32B567F8A00374A88 /* Common.framework in Frameworks */,
+				A1414F1E2B568A7400374A88 /* Home.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -97,6 +114,9 @@
 		6DA9AFA2CD4168941C94ED01 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				A1414F452B569FE200374A88 /* NavigationRoute.framework */,
+				A1414F2B2B5699BC00374A88 /* RouterServiceInterface.framework */,
+				A1414F1D2B568A7400374A88 /* Home.framework */,
 				A1414EE92B56822C00374A88 /* RouterService.framework */,
 				A1414EE22B567F8A00374A88 /* Common.framework */,
 				30BB53A2DE54967169938331 /* Pods_handika_poke_app.framework */,
@@ -131,6 +151,7 @@
 				A1414EB32B56796F00374A88 /* SceneDelegate.swift */,
 				A1414EBF2B56797100374A88 /* Info.plist */,
 				A1414EF22B5684A700374A88 /* SplashScreen */,
+				A1414F202B56901400374A88 /* Utils */,
 				A1414EF02B56847600374A88 /* Resource */,
 			);
 			path = "handika-poke-app";
@@ -173,6 +194,14 @@
 			path = SplashScreen;
 			sourceTree = "<group>";
 		};
+		A1414F202B56901400374A88 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				A1414F242B56914100374A88 /* DismissSplashTransition.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
 		E5645C8F6DE1864AC0268361 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -196,6 +225,7 @@
 				A1414EAB2B56796F00374A88 /* Frameworks */,
 				A1414EAC2B56796F00374A88 /* Resources */,
 				A1414EE52B567F8A00374A88 /* Embed Frameworks */,
+				E2C39888B97B92CBF758F8CB /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -329,6 +359,23 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
+		E2C39888B97B92CBF758F8CB /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-handika-poke-app/Pods-handika-poke-app-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-handika-poke-app/Pods-handika-poke-app-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-handika-poke-app/Pods-handika-poke-app-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -337,6 +384,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A1414EF42B5684C900374A88 /* SplashScreen.swift in Sources */,
+				A1414F252B56914100374A88 /* DismissSplashTransition.swift in Sources */,
 				A1414EB62B56796F00374A88 /* ViewController.swift in Sources */,
 				A1414EB22B56796F00374A88 /* AppDelegate.swift in Sources */,
 				A1414EB42B56796F00374A88 /* SceneDelegate.swift in Sources */,

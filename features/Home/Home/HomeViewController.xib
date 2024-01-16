@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="22505" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22504"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="HomeViewController" customModule="Home" customModuleProvider="target">
+            <connections>
+                <outlet property="collectionView" destination="2h6-ul-FcF" id="arI-zf-RSf"/>
+                <outlet property="myPokemonBtn" destination="MRp-a5-7DG" id="Upx-dQ-mz3"/>
+                <outlet property="view" destination="iN0-l3-epB" id="-3"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MRp-a5-7DG">
+                    <rect key="frame" x="265" y="75" width="112" height="40"/>
+                    <color key="backgroundColor" red="0.55227794610000003" green="0.86863768399999997" blue="0.67328216689999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="40" id="wUf-IY-aEF"/>
+                    </constraints>
+                    <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                    <state key="normal" title="My Pokemon"/>
+                    <buttonConfiguration key="configuration" style="plain" title="My Pokemon">
+                        <fontDescription key="titleFontDescription" type="boldSystem" pointSize="14"/>
+                    </buttonConfiguration>
+                    <connections>
+                        <action selector="myPokemonBtnTouchUpInside:" destination="-1" eventType="touchUpInside" id="xfL-6J-ka1"/>
+                    </connections>
+                </button>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Pokemons" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Cht-m1-Kc9">
+                    <rect key="frame" x="16" y="95.666666666666671" width="79" height="19.333333333333329"/>
+                    <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="16"/>
+                    <color key="textColor" red="0.39737215909090906" green="0.39737215909090906" blue="0.39737215909090906" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="none" translatesAutoresizingMaskIntoConstraints="NO" id="2h6-ul-FcF">
+                    <rect key="frame" x="0.0" y="131" width="393" height="687"/>
+                    <color key="backgroundColor" systemColor="secondarySystemBackgroundColor"/>
+                    <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="8gH-WW-2Nc">
+                        <size key="itemSize" width="128" height="128"/>
+                        <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                        <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                        <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                    </collectionViewFlowLayout>
+                </collectionView>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstItem="MRp-a5-7DG" firstAttribute="top" secondItem="vUN-kp-3ea" secondAttribute="top" constant="16" id="2TG-XD-F4T"/>
+                <constraint firstItem="2h6-ul-FcF" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" id="8JW-d4-pj8"/>
+                <constraint firstItem="2h6-ul-FcF" firstAttribute="top" secondItem="Cht-m1-Kc9" secondAttribute="bottom" constant="16" id="IsJ-hO-3Ud"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="MRp-a5-7DG" secondAttribute="trailing" constant="16" id="LP3-qo-5up"/>
+                <constraint firstItem="Cht-m1-Kc9" firstAttribute="bottom" secondItem="MRp-a5-7DG" secondAttribute="bottom" id="N3a-vC-caF"/>
+                <constraint firstItem="Cht-m1-Kc9" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="16" id="SyC-dK-HAf"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="2h6-ul-FcF" secondAttribute="trailing" id="fKL-Bc-BG9"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="bottom" secondItem="2h6-ul-FcF" secondAttribute="bottom" id="x1V-FL-khc"/>
+            </constraints>
+            <point key="canvasLocation" x="132" y="-12"/>
+        </view>
+    </objects>
+    <resources>
+        <systemColor name="secondarySystemBackgroundColor">
+            <color red="0.94901960784313721" green="0.94901960784313721" blue="0.96862745098039216" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>

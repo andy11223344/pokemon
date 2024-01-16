@@ -10,6 +10,7 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="SplashScreen" customModule="handika_poke_app" customModuleProvider="target">
             <connections>
+                <outlet property="logoImg" destination="IVG-Hv-94P" id="A1B-xI-wUH"/>
                 <outlet property="view" destination="iN0-l3-epB" id="GeY-9x-4la"/>
             </connections>
         </placeholder>

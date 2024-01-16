@@ -4,9 +4,18 @@
    <FileRef
       location = "group:handika-poke-app.xcodeproj">
    </FileRef>
+   <FileRef
+      location = "group:Shared/Shared.xcodeproj">
+   </FileRef>
    <Group
       location = "container:"
       name = "Features">
+      <FileRef
+         location = "group:features/NavigationRoute/NavigationRoute.xcodeproj">
+      </FileRef>
+      <FileRef
+         location = "group:features/Home/Home.xcodeproj">
+      </FileRef>
    </Group>
    <Group
       location = "container:"
