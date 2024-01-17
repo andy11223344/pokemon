@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		00446BBDA2AC7DE9C6EB5BF7 /* Pods_handika_poke_app_Shared.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A1FA7D87CFCB84582F7FA9D /* Pods_handika_poke_app_Shared.framework */; };
+		A115965A2B57A1030053F98D /* MyPokemon.swift in Sources */ = {isa = PBXBuildFile; fileRef = A11596592B57A1030053F98D /* MyPokemon.swift */; };
+		A115965C2B57A21C0053F98D /* Persistents.swift in Sources */ = {isa = PBXBuildFile; fileRef = A115965B2B57A21C0053F98D /* Persistents.swift */; };
+		A11596992B57C1F20053F98D /* Fibonacci.swift in Sources */ = {isa = PBXBuildFile; fileRef = A11596982B57C1F20053F98D /* Fibonacci.swift */; };
 		A1414F992B56D30600374A88 /* Networking.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A1414F982B56D30600374A88 /* Networking.framework */; };
 		A1414F9A2B56D30600374A88 /* Networking.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = A1414F982B56D30600374A88 /* Networking.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		A1414F9D2B56D31700374A88 /* ErrorLocalizable.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1414F9C2B56D31700374A88 /* ErrorLocalizable.swift */; };
@@ -38,6 +41,9 @@
 /* Begin PBXFileReference section */
 		409740A303D9329D0DF35D18 /* Pods-handika-poke-app-Shared.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-handika-poke-app-Shared.release.xcconfig"; path = "Target Support Files/Pods-handika-poke-app-Shared/Pods-handika-poke-app-Shared.release.xcconfig"; sourceTree = "<group>"; };
 		6A1FA7D87CFCB84582F7FA9D /* Pods_handika_poke_app_Shared.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_handika_poke_app_Shared.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A11596592B57A1030053F98D /* MyPokemon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyPokemon.swift; sourceTree = "<group>"; };
+		A115965B2B57A21C0053F98D /* Persistents.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistents.swift; sourceTree = "<group>"; };
+		A11596982B57C1F20053F98D /* Fibonacci.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fibonacci.swift; sourceTree = "<group>"; };
 		A1414F8E2B56D29000374A88 /* Shared.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Shared.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A1414F982B56D30600374A88 /* Networking.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Networking.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A1414F9C2B56D31700374A88 /* ErrorLocalizable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorLocalizable.swift; sourceTree = "<group>"; };
@@ -87,13 +93,24 @@
 		A11596582B57A0150053F98D /* Services */ = {
 			isa = PBXGroup;
 			children = (
+				A11596592B57A1030053F98D /* MyPokemon.swift */,
+				A115965B2B57A21C0053F98D /* Persistents.swift */,
 			);
 			name = Services;
+			sourceTree = "<group>";
+		};
+		A11596972B57C1DD0053F98D /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				A11596982B57C1F20053F98D /* Fibonacci.swift */,
+			);
+			name = Utils;
 			sourceTree = "<group>";
 		};
 		A1414F842B56D29000374A88 = {
 			isa = PBXGroup;
 			children = (
+				A11596972B57C1DD0053F98D /* Utils */,
 				A11596582B57A0150053F98D /* Services */,
 				A1414FD82B56F06E00374A88 /* Models */,
 				A1414F902B56D29000374A88 /* Shared */,
@@ -237,10 +254,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A115965C2B57A21C0053F98D /* Persistents.swift in Sources */,
 				A1414FA52B56DD0500374A88 /* Styles.swift in Sources */,
+				A11596992B57C1F20053F98D /* Fibonacci.swift in Sources */,
 				A1414F9D2B56D31700374A88 /* ErrorLocalizable.swift in Sources */,
 				A1414FA72B56E22700374A88 /* Colors.swift in Sources */,
 				A1414FDC2B56F07B00374A88 /* PokemonListModel.swift in Sources */,
+				A115965A2B57A1030053F98D /* MyPokemon.swift in Sources */,
 				A1414FDB2B56F07B00374A88 /* PokemonModel.swift in Sources */,
 				A1414FA22B56D48800374A88 /* Constants.swift in Sources */,
 			);

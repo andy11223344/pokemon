@@ -7,7 +7,7 @@
 
 import UIKit
 
-extension UITableView {
+public extension UITableView {
     
     // MARK: Reusable support for UITableView
     // Usage : tableView.register(cellType: CellClass.self)

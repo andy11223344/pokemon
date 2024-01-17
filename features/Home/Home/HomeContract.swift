@@ -55,5 +55,6 @@ protocol HomeWireframe: AnyObject {
     var view: UIViewController? { get set }
     var routerService: RouterServiceProtocol? { get set }
     
+    func navigateToMyPokemon()
     func navigateToDetail(data: PokemonModel)
 }

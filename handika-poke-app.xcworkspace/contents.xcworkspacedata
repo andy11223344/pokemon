@@ -14,6 +14,9 @@
          location = "group:features/NavigationRoute/NavigationRoute.xcodeproj">
       </FileRef>
       <FileRef
+         location = "group:features/MyPokemonList/MyPokemonList.xcodeproj">
+      </FileRef>
+      <FileRef
          location = "group:features/PokemonDetail/PokemonDetail.xcodeproj">
       </FileRef>
       <FileRef

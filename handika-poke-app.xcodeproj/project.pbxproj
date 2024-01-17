@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		65C6D45D5004C12D0FFBB4DE /* Pods_handika_poke_appTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D48F2F5EFBCBC5F08C9991E7 /* Pods_handika_poke_appTests.framework */; };
+		A115968B2B57A8480053F98D /* MyPokemonList.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A115968A2B57A8480053F98D /* MyPokemonList.framework */; };
+		A115968C2B57A8480053F98D /* MyPokemonList.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = A115968A2B57A8480053F98D /* MyPokemonList.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		A1414EB22B56796F00374A88 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1414EB12B56796F00374A88 /* AppDelegate.swift */; };
 		A1414EB42B56796F00374A88 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1414EB32B56796F00374A88 /* SceneDelegate.swift */; };
 		A1414EBB2B56797100374A88 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A1414EBA2B56797100374A88 /* Assets.xcassets */; };
@@ -53,6 +55,7 @@
 				A1414EE42B567F8A00374A88 /* Common.framework in Embed Frameworks */,
 				A1414FE62B56F3BE00374A88 /* PokemonDetail.framework in Embed Frameworks */,
 				A1414EEB2B56822C00374A88 /* RouterService.framework in Embed Frameworks */,
+				A115968C2B57A8480053F98D /* MyPokemonList.framework in Embed Frameworks */,
 				A1414F1F2B568A7400374A88 /* Home.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
@@ -65,6 +68,7 @@
 		30BB53A2DE54967169938331 /* Pods_handika_poke_app.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_handika_poke_app.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8A276895F3A7E278BA49767F /* Pods-handika-poke-app.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-handika-poke-app.debug.xcconfig"; path = "Target Support Files/Pods-handika-poke-app/Pods-handika-poke-app.debug.xcconfig"; sourceTree = "<group>"; };
 		92AAA654AD8F87864FA20A05 /* Pods-handika-poke-appTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-handika-poke-appTests.debug.xcconfig"; path = "Target Support Files/Pods-handika-poke-appTests/Pods-handika-poke-appTests.debug.xcconfig"; sourceTree = "<group>"; };
+		A115968A2B57A8480053F98D /* MyPokemonList.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = MyPokemonList.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A1414EAE2B56796F00374A88 /* handika-poke-app.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "handika-poke-app.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A1414EB12B56796F00374A88 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A1414EB32B56796F00374A88 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -97,6 +101,7 @@
 				A1414F2C2B5699BC00374A88 /* RouterServiceInterface.framework in Frameworks */,
 				D381A784A67B162EDB17039B /* Pods_handika_poke_app.framework in Frameworks */,
 				A1414EE32B567F8A00374A88 /* Common.framework in Frameworks */,
+				A115968B2B57A8480053F98D /* MyPokemonList.framework in Frameworks */,
 				A1414F1E2B568A7400374A88 /* Home.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -115,6 +120,7 @@
 		6DA9AFA2CD4168941C94ED01 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				A115968A2B57A8480053F98D /* MyPokemonList.framework */,
 				A1414FE42B56F3BE00374A88 /* PokemonDetail.framework */,
 				A1414F452B569FE200374A88 /* NavigationRoute.framework */,
 				A1414F2B2B5699BC00374A88 /* RouterServiceInterface.framework */,

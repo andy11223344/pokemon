@@ -19,6 +19,13 @@ public  struct PokemonModel: Codable {
         case id
         case name, weight, moves
         case sprites, types
+        case renamedSequence
+    }
+    
+    public var renamedSequence: Int?
+    public var nameSequence: String {
+        guard let renamedSequence else { return name }
+        return name + "-\(Fibonacci(sequence: renamedSequence).next)"
     }
 }
 

@@ -44,4 +44,9 @@ extension HomeRouter: HomeWireframe {
         let route = PokemonDetailRoute(data: data)
         routerService?.navigate(toRoute: route, fromView: view, presentationStyle: Modal(), animated: true)
     }
+    
+    func navigateToMyPokemon() {
+        guard let view else { return }
+        routerService?.navigate(toRoute: MyPokemonListRoute(), fromView: view, presentationStyle: Push(), animated: true)
+    }
 }

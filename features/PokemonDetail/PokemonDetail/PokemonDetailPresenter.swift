@@ -51,9 +51,17 @@ extension PokemonDetailPresenter: PokemonDetailPresentation {
     }
     
     func cathingPokemon(data: PokemonSpecies) {
+        if MyPokemon.shared.getBy(name: data.name) != nil {
+            view?.showAlert(message: "This pokemon already exist")
+            return
+        }
+        
         let capture = CapturePokemon(captureRate: data.captureRate)
         capture.catch { [weak self] captured in
             if captured {
+                if let pokemon = self?.data {
+                    MyPokemon.shared.add(data: pokemon)
+                }
                 self?.view?.catchPokemonDidSuccess()
             } else {
                 self?.view?.catchPokemonDidFail()

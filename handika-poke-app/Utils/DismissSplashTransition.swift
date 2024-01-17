@@ -50,7 +50,7 @@ final class DismissSplashTransition: NSObject, UIViewControllerAnimatedTransitio
         }, completion: { (success:Bool) in
             snap.removeFromSuperview()
             transitionContext.completeTransition(success)
-            UIWindow().setRootViewController(toView, animated: false)
+            UIWindow().setRootViewController(UINavigationController(rootViewController: toView), animated: false)
         })
     }
     

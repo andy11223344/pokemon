@@ -45,6 +45,10 @@ def features_pod
   target 'PokemonDetail' do
     project 'features/PokemonDetail/PokemonDetail.xcodeproj'
   end
+  
+  target 'MyPokemonList' do
+    project 'features/MyPokemonList/MyPokemonList.xcodeproj'
+  end
 end
 
 target 'handika-poke-app' do

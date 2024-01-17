@@ -67,6 +67,6 @@ extension PokemonDetailViewController: PokemonDetailView{
     
     func catchPokemonDidFail() {
         Loading.hide(self)
-        showAlert(title: "", message: "Catching pokemon fail, you can try again until success")
+        showAlert(title: "Pokemon Run away", message: "Catching pokemon fail, you can try again until success")
     }
 }

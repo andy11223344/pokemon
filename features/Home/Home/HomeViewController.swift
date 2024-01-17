@@ -53,7 +53,7 @@ public class HomeViewController: BaseViewController {
     
     
     @IBAction func myPokemonBtnTouchUpInside(_ sender: Any) {
-        
+        presenter?.router?.navigateToMyPokemon()
     }
     
 }
