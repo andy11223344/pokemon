@@ -16,6 +16,8 @@
 		A1414FA72B56E22700374A88 /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1414FA62B56E22700374A88 /* Colors.swift */; };
 		A1414FA92B56E25A00374A88 /* Common.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A1414FA82B56E25A00374A88 /* Common.framework */; };
 		A1414FAA2B56E25A00374A88 /* Common.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = A1414FA82B56E25A00374A88 /* Common.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		A1414FDB2B56F07B00374A88 /* PokemonModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1414FD92B56F07B00374A88 /* PokemonModel.swift */; };
+		A1414FDC2B56F07B00374A88 /* PokemonListModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1414FDA2B56F07B00374A88 /* PokemonListModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -43,6 +45,8 @@
 		A1414FA42B56DD0500374A88 /* Styles.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Styles.swift; sourceTree = "<group>"; };
 		A1414FA62B56E22700374A88 /* Colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
 		A1414FA82B56E25A00374A88 /* Common.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Common.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A1414FD92B56F07B00374A88 /* PokemonModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PokemonModel.swift; sourceTree = "<group>"; };
+		A1414FDA2B56F07B00374A88 /* PokemonListModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PokemonListModel.swift; sourceTree = "<group>"; };
 		B7BD5A92BE574CC027EA8DD6 /* Pods-handika-poke-app-Shared.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-handika-poke-app-Shared.debug.xcconfig"; path = "Target Support Files/Pods-handika-poke-app-Shared/Pods-handika-poke-app-Shared.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -80,9 +84,18 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		A11596582B57A0150053F98D /* Services */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Services;
+			sourceTree = "<group>";
+		};
 		A1414F842B56D29000374A88 = {
 			isa = PBXGroup;
 			children = (
+				A11596582B57A0150053F98D /* Services */,
+				A1414FD82B56F06E00374A88 /* Models */,
 				A1414F902B56D29000374A88 /* Shared */,
 				A1414F8F2B56D29000374A88 /* Products */,
 				2542B9D7F64120382F544727 /* Pods */,
@@ -107,6 +120,15 @@
 				A1414FA62B56E22700374A88 /* Colors.swift */,
 			);
 			path = Shared;
+			sourceTree = "<group>";
+		};
+		A1414FD82B56F06E00374A88 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				A1414FDA2B56F07B00374A88 /* PokemonListModel.swift */,
+				A1414FD92B56F07B00374A88 /* PokemonModel.swift */,
+			);
+			name = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -218,6 +240,8 @@
 				A1414FA52B56DD0500374A88 /* Styles.swift in Sources */,
 				A1414F9D2B56D31700374A88 /* ErrorLocalizable.swift in Sources */,
 				A1414FA72B56E22700374A88 /* Colors.swift in Sources */,
+				A1414FDC2B56F07B00374A88 /* PokemonListModel.swift in Sources */,
+				A1414FDB2B56F07B00374A88 /* PokemonModel.swift in Sources */,
 				A1414FA22B56D48800374A88 /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

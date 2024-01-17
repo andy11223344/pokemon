@@ -33,6 +33,11 @@ extension HomePresenter: HomePresentation {
         
         return URL(string: imgUrl)
     }
+    
+    func showDetail(_ index: Int) {
+        guard let data = interactor?.pokemonList[index] else { return }
+        router?.navigateToDetail(data: data)
+    }
 }
 
 

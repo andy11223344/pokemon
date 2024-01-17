@@ -8,6 +8,7 @@
 import UIKit
 import RouterService
 import Home
+import PokemonDetail
 
 class SceneDelegate: UIResponder, UIWindowSceneDelegate {
 
@@ -21,9 +22,7 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         }
         
         routerService.register(routeHandler: HomeRouteHandler())
-        
-//        let nav = UINavigationController(rootViewController: SplashScreen(routerService: routerService))
-//        nav.setNavigationBarHidden(true, animated: false)
+        routerService.register(routeHandler: PokemonDetailRouteHandler())
         
         let nav = routerService.navigationController(
             withInitialFeature: SplashScreenFeature.self

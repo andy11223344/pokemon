@@ -23,8 +23,6 @@
 		A1414F582B56A24300374A88 /* PokemonAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1414F572B56A24300374A88 /* PokemonAPI.swift */; };
 		A1414F5A2B56A25200374A88 /* Networking.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A1414F592B56A25200374A88 /* Networking.framework */; };
 		A1414F5B2B56A25200374A88 /* Networking.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = A1414F592B56A25200374A88 /* Networking.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		A1414F5E2B56A2E100374A88 /* PokemonListModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1414F5D2B56A2E100374A88 /* PokemonListModel.swift */; };
-		A1414F612B56A2F900374A88 /* PokemonModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1414F602B56A2F900374A88 /* PokemonModel.swift */; };
 		A1414F632B56A68600374A88 /* Components.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A1414F622B56A68600374A88 /* Components.framework */; };
 		A1414F642B56A68600374A88 /* Components.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = A1414F622B56A68600374A88 /* Components.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		A1414F692B56CB9F00374A88 /* PokemonCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1414F672B56CB9F00374A88 /* PokemonCollectionViewCell.swift */; };
@@ -69,8 +67,6 @@
 		A1414F552B56A21E00374A88 /* PokemonService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PokemonService.swift; sourceTree = "<group>"; };
 		A1414F572B56A24300374A88 /* PokemonAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PokemonAPI.swift; sourceTree = "<group>"; };
 		A1414F592B56A25200374A88 /* Networking.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Networking.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		A1414F5D2B56A2E100374A88 /* PokemonListModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PokemonListModel.swift; sourceTree = "<group>"; };
-		A1414F602B56A2F900374A88 /* PokemonModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PokemonModel.swift; sourceTree = "<group>"; };
 		A1414F622B56A68600374A88 /* Components.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Components.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A1414F672B56CB9F00374A88 /* PokemonCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PokemonCollectionViewCell.swift; sourceTree = "<group>"; };
 		A1414F682B56CB9F00374A88 /* PokemonCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PokemonCollectionViewCell.xib; sourceTree = "<group>"; };
@@ -126,7 +122,6 @@
 			isa = PBXGroup;
 			children = (
 				A1414F652B56CB7100374A88 /* Views */,
-				A1414F5C2B56A2D600374A88 /* Models */,
 				A1414F542B56A1D000374A88 /* APIService */,
 				A1414F032B56881E00374A88 /* Home */,
 				A1414F022B56881E00374A88 /* Products */,
@@ -164,15 +159,6 @@
 				A1414F572B56A24300374A88 /* PokemonAPI.swift */,
 			);
 			name = APIService;
-			sourceTree = "<group>";
-		};
-		A1414F5C2B56A2D600374A88 /* Models */ = {
-			isa = PBXGroup;
-			children = (
-				A1414F5D2B56A2E100374A88 /* PokemonListModel.swift */,
-				A1414F602B56A2F900374A88 /* PokemonModel.swift */,
-			);
-			name = Models;
 			sourceTree = "<group>";
 		};
 		A1414F652B56CB7100374A88 /* Views */ = {
@@ -304,12 +290,10 @@
 				A1414F132B56885D00374A88 /* HomeRouter.swift in Sources */,
 				A1414F122B56885D00374A88 /* HomePresenter.swift in Sources */,
 				A1414F692B56CB9F00374A88 /* PokemonCollectionViewCell.swift in Sources */,
-				A1414F612B56A2F900374A88 /* PokemonModel.swift in Sources */,
 				A1414F1C2B5689D800374A88 /* HomeFeature.swift in Sources */,
 				A1414F562B56A21E00374A88 /* PokemonService.swift in Sources */,
 				A1414F152B56885D00374A88 /* HomeInteractor.swift in Sources */,
 				A1414F582B56A24300374A88 /* PokemonAPI.swift in Sources */,
-				A1414F5E2B56A2E100374A88 /* PokemonListModel.swift in Sources */,
 				A1414F142B56885D00374A88 /* HomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

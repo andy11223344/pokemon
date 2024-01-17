@@ -26,6 +26,8 @@
 		A1414F2D2B5699BC00374A88 /* RouterServiceInterface.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = A1414F2B2B5699BC00374A88 /* RouterServiceInterface.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		A1414F462B569FE200374A88 /* NavigationRoute.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A1414F452B569FE200374A88 /* NavigationRoute.framework */; };
 		A1414F472B569FE200374A88 /* NavigationRoute.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = A1414F452B569FE200374A88 /* NavigationRoute.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		A1414FE52B56F3BE00374A88 /* PokemonDetail.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A1414FE42B56F3BE00374A88 /* PokemonDetail.framework */; };
+		A1414FE62B56F3BE00374A88 /* PokemonDetail.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = A1414FE42B56F3BE00374A88 /* PokemonDetail.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		D381A784A67B162EDB17039B /* Pods_handika_poke_app.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 30BB53A2DE54967169938331 /* Pods_handika_poke_app.framework */; };
 /* End PBXBuildFile section */
 
@@ -49,6 +51,7 @@
 				A1414F472B569FE200374A88 /* NavigationRoute.framework in Embed Frameworks */,
 				A1414F2D2B5699BC00374A88 /* RouterServiceInterface.framework in Embed Frameworks */,
 				A1414EE42B567F8A00374A88 /* Common.framework in Embed Frameworks */,
+				A1414FE62B56F3BE00374A88 /* PokemonDetail.framework in Embed Frameworks */,
 				A1414EEB2B56822C00374A88 /* RouterService.framework in Embed Frameworks */,
 				A1414F1F2B568A7400374A88 /* Home.framework in Embed Frameworks */,
 			);
@@ -78,6 +81,7 @@
 		A1414F242B56914100374A88 /* DismissSplashTransition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DismissSplashTransition.swift; sourceTree = "<group>"; };
 		A1414F2B2B5699BC00374A88 /* RouterServiceInterface.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = RouterServiceInterface.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A1414F452B569FE200374A88 /* NavigationRoute.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = NavigationRoute.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A1414FE42B56F3BE00374A88 /* PokemonDetail.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = PokemonDetail.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D48F2F5EFBCBC5F08C9991E7 /* Pods_handika_poke_appTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_handika_poke_appTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E58869401F8DF1D93A7B084C /* Pods-handika-poke-app.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-handika-poke-app.release.xcconfig"; path = "Target Support Files/Pods-handika-poke-app/Pods-handika-poke-app.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -89,6 +93,7 @@
 			files = (
 				A1414F462B569FE200374A88 /* NavigationRoute.framework in Frameworks */,
 				A1414EEA2B56822C00374A88 /* RouterService.framework in Frameworks */,
+				A1414FE52B56F3BE00374A88 /* PokemonDetail.framework in Frameworks */,
 				A1414F2C2B5699BC00374A88 /* RouterServiceInterface.framework in Frameworks */,
 				D381A784A67B162EDB17039B /* Pods_handika_poke_app.framework in Frameworks */,
 				A1414EE32B567F8A00374A88 /* Common.framework in Frameworks */,
@@ -110,6 +115,7 @@
 		6DA9AFA2CD4168941C94ED01 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				A1414FE42B56F3BE00374A88 /* PokemonDetail.framework */,
 				A1414F452B569FE200374A88 /* NavigationRoute.framework */,
 				A1414F2B2B5699BC00374A88 /* RouterServiceInterface.framework */,
 				A1414F1D2B568A7400374A88 /* Home.framework */,

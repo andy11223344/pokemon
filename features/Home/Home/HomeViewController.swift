@@ -42,6 +42,7 @@ public class HomeViewController: BaseViewController {
     func setupCollectionView() {
         collectionView.register(cellType: PokemonCollectionViewCell.self)
         collectionView.dataSource = self
+        collectionView.delegate = self
         collectionView.collectionViewLayout = Constants.Styles.Layout.menuLayout(frame: view.frame)
     }
     
@@ -89,3 +90,8 @@ extension HomeViewController: UICollectionViewDataSource {
     }
 }
 
+extension HomeViewController: UICollectionViewDelegate {
+    public func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
+        presenter?.showDetail(indexPath.row)
+    }
+}

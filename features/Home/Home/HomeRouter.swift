@@ -8,6 +8,8 @@
 
 import UIKit
 import RouterServiceInterface
+import NavigationRoute
+import Shared
 
 public class HomeRouter  {
     
@@ -36,5 +38,10 @@ public class HomeRouter  {
 }
 
 extension HomeRouter: HomeWireframe {
-    
+    func navigateToDetail(data: PokemonModel) {
+        guard let view else { return }
+        
+        let route = PokemonDetailRoute(data: data)
+        routerService?.navigate(toRoute: route, fromView: view, presentationStyle: Modal(), animated: true)
+    }
 }

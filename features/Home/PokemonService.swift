@@ -7,6 +7,7 @@
 
 import Foundation
 import Networking
+import Shared
 
 protocol IPokemonService {
     func getPokemonList(completion: ((Result<[PokemonModel], ErrorResult>) -> Void)?)

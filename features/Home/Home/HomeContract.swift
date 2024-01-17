@@ -9,6 +9,7 @@
 import UIKit
 import RouterServiceInterface
 import Networking
+import Shared
 
 // MARK: - ViewController
 protocol HomeView: AnyObject {
@@ -28,6 +29,8 @@ protocol HomePresentation: AnyObject {
     
     func pokemonName(_ index: Int) -> String?
     func pokemonImageUrl(_ index: Int) -> URL?
+    
+    func showDetail(_ index: Int)
 }
 
 
@@ -51,4 +54,6 @@ protocol HomeInteractorOutput: AnyObject {
 protocol HomeWireframe: AnyObject {
     var view: UIViewController? { get set }
     var routerService: RouterServiceProtocol? { get set }
+    
+    func navigateToDetail(data: PokemonModel)
 }
